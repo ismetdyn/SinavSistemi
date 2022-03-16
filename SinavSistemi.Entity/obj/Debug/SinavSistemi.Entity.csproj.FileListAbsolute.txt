@@ -1,0 +1,6 @@
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.dll
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.pdb
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.csproj.AssemblyReference.cache
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.dll
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.pdb
