@@ -10,3 +10,7 @@ C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\obj\Deb
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\obj\Debug\SinavSistemi.BusinessLayer.csproj.CopyComplete
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\obj\Debug\SinavSistemi.BusinessLayer.dll
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\obj\Debug\SinavSistemi.BusinessLayer.pdb
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.dll
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\bin\Debug\FluentValidation.dll
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.pdb
+C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.BusinessLayer\bin\Debug\FluentValidation.xml

@@ -30,6 +30,7 @@ namespace SinavSistemi.UI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule conditionValidationRule1 = new DevExpress.XtraEditors.DXErrorProvider.ConditionValidationRule();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginUI));
             DevExpress.XtraEditors.Controls.EditorButtonImageOptions editorButtonImageOptions1 = new DevExpress.XtraEditors.Controls.EditorButtonImageOptions();
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
@@ -40,19 +41,23 @@ namespace SinavSistemi.UI
             this.hyperlinkKaydol = new DevExpress.XtraEditors.HyperlinkLabelControl();
             this.btnGonder = new DevExpress.XtraEditors.SimpleButton();
             this.toggleSwitchGeceModu = new DevExpress.XtraEditors.ToggleSwitch();
-            this.tbKullaniciAdi = new DevExpress.XtraEditors.TextEdit();
+            this.beKullaniciAdi = new DevExpress.XtraEditors.TextEdit();
             this.checkEditBeniHatirla = new DevExpress.XtraEditors.CheckEdit();
             this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
-            this.buttonEditSifre = new DevExpress.XtraEditors.ButtonEdit();
-            this.svgImageExit = new DevExpress.XtraEditors.SvgImageBox();
+            this.beSifre = new DevExpress.XtraEditors.ButtonEdit();
             this.svgImageBox1 = new DevExpress.XtraEditors.SvgImageBox();
+            this.epKullaniciAdi = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
+            this.epSifre = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
+            this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.toggleSwitchGeceModu.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbKullaniciAdi.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEditBeniHatirla.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEditSifre.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epKullaniciAdi)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epSifre)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // hyperlinkSifremiUnuttum
@@ -95,38 +100,43 @@ namespace SinavSistemi.UI
             // toggleSwitchGeceModu
             // 
             this.toggleSwitchGeceModu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.toggleSwitchGeceModu.Location = new System.Drawing.Point(530, 8);
+            this.toggleSwitchGeceModu.Location = new System.Drawing.Point(12, -2);
             this.toggleSwitchGeceModu.Name = "toggleSwitchGeceModu";
             this.toggleSwitchGeceModu.Properties.GlyphVerticalAlignment = DevExpress.Utils.VertAlignment.Center;
             this.toggleSwitchGeceModu.Properties.OffText = "Gündüz";
             this.toggleSwitchGeceModu.Properties.OnText = "Gece";
-            this.toggleSwitchGeceModu.Size = new System.Drawing.Size(120, 24);
+            this.toggleSwitchGeceModu.Size = new System.Drawing.Size(120, 20);
             this.toggleSwitchGeceModu.TabIndex = 5;
             this.toggleSwitchGeceModu.ToolTip = "Gündüz / Gece Modu";
             this.toggleSwitchGeceModu.Toggled += new System.EventHandler(this.toggleSwitchGeceModu_Toggled);
             // 
-            // tbKullaniciAdi
+            // beKullaniciAdi
             // 
-            this.behaviorManager1.SetBehaviors(this.tbKullaniciAdi, new DevExpress.Utils.Behaviors.Behavior[] {
+            this.behaviorManager1.SetBehaviors(this.beKullaniciAdi, new DevExpress.Utils.Behaviors.Behavior[] {
             ((DevExpress.Utils.Behaviors.Behavior)(DevExpress.Utils.Behaviors.Common.FileIconBehavior.Create(typeof(DevExpress.XtraEditors.Behaviors.FileIconBehaviorSourceForTextEdit), DevExpress.Utils.Behaviors.Common.FileIconSize.Large, null, null)))});
-            this.tbKullaniciAdi.Cursor = System.Windows.Forms.Cursors.Default;
-            this.tbKullaniciAdi.EditValue = "";
-            this.tbKullaniciAdi.EnterMoveNextControl = true;
-            this.tbKullaniciAdi.Location = new System.Drawing.Point(175, 184);
-            this.tbKullaniciAdi.Name = "tbKullaniciAdi";
-            this.tbKullaniciAdi.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
-            this.tbKullaniciAdi.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tbKullaniciAdi.Properties.Appearance.Options.UseFont = true;
-            this.tbKullaniciAdi.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
-            this.tbKullaniciAdi.Properties.AppearanceFocused.Options.UseFont = true;
-            this.tbKullaniciAdi.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-            this.tbKullaniciAdi.Properties.ContextImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.bo_user;
-            this.tbKullaniciAdi.Properties.MaxLength = 20;
-            this.tbKullaniciAdi.Properties.NullText = "Kullanıcı Adınız...";
-            this.tbKullaniciAdi.Properties.NullValuePrompt = "Kullanıcı Adınız...";
-            this.tbKullaniciAdi.Properties.Padding = new System.Windows.Forms.Padding(2, 2, 0, 0);
-            this.tbKullaniciAdi.Size = new System.Drawing.Size(395, 46);
-            this.tbKullaniciAdi.TabIndex = 0;
+            this.beKullaniciAdi.Cursor = System.Windows.Forms.Cursors.Default;
+            this.beKullaniciAdi.EditValue = "";
+            this.beKullaniciAdi.EnterMoveNextControl = true;
+            this.beKullaniciAdi.Location = new System.Drawing.Point(175, 184);
+            this.beKullaniciAdi.Name = "beKullaniciAdi";
+            this.beKullaniciAdi.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.beKullaniciAdi.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.beKullaniciAdi.Properties.Appearance.Options.UseFont = true;
+            this.beKullaniciAdi.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
+            this.beKullaniciAdi.Properties.AppearanceFocused.Options.UseFont = true;
+            this.beKullaniciAdi.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+            this.beKullaniciAdi.Properties.ContextImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.bo_user;
+            this.beKullaniciAdi.Properties.MaxLength = 20;
+            this.beKullaniciAdi.Properties.NullText = "Kullanıcı Adınız...";
+            this.beKullaniciAdi.Properties.NullValuePrompt = "Kullanıcı Adınız...";
+            this.beKullaniciAdi.Properties.Padding = new System.Windows.Forms.Padding(2, 2, 0, 0);
+            this.beKullaniciAdi.Size = new System.Drawing.Size(395, 46);
+            this.beKullaniciAdi.TabIndex = 0;
+            conditionValidationRule1.ConditionOperator = DevExpress.XtraEditors.DXErrorProvider.ConditionOperator.IsNotBlank;
+            conditionValidationRule1.ErrorText = "alan boş olmamalı.";
+            this.dxValidationProvider1.SetValidationRule(this.beKullaniciAdi, conditionValidationRule1);
+            this.beKullaniciAdi.TextChanged += new System.EventHandler(this.beKullaniciAdi_TextChanged);
+            this.beKullaniciAdi.Validating += new System.ComponentModel.CancelEventHandler(this.beKullaniciAdi_Validating);
             // 
             // checkEditBeniHatirla
             // 
@@ -146,17 +156,17 @@ namespace SinavSistemi.UI
             this.checkEditBeniHatirla.Size = new System.Drawing.Size(97, 22);
             this.checkEditBeniHatirla.TabIndex = 9;
             // 
-            // buttonEditSifre
+            // beSifre
             // 
-            this.buttonEditSifre.Cursor = System.Windows.Forms.Cursors.Default;
-            this.buttonEditSifre.Location = new System.Drawing.Point(175, 249);
-            this.buttonEditSifre.Name = "buttonEditSifre";
-            this.buttonEditSifre.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
-            this.buttonEditSifre.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.buttonEditSifre.Properties.Appearance.Options.UseFont = true;
-            this.buttonEditSifre.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.buttonEditSifre.Properties.AppearanceFocused.Options.UseFont = true;
-            this.buttonEditSifre.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+            this.beSifre.Cursor = System.Windows.Forms.Cursors.Default;
+            this.beSifre.Location = new System.Drawing.Point(175, 249);
+            this.beSifre.Name = "beSifre";
+            this.beSifre.Properties.AllowNullInput = DevExpress.Utils.DefaultBoolean.False;
+            this.beSifre.Properties.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.beSifre.Properties.Appearance.Options.UseFont = true;
+            this.beSifre.Properties.AppearanceFocused.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.beSifre.Properties.AppearanceFocused.Options.UseFont = true;
+            this.beSifre.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
             editorButtonImageOptions1.AllowGlyphSkinning = DevExpress.Utils.DefaultBoolean.True;
             editorButtonImageOptions1.ImageUri.Uri = "Show";
             editorButtonImageOptions1.Location = DevExpress.XtraEditors.ImageLocation.MiddleRight;
@@ -168,35 +178,25 @@ namespace SinavSistemi.UI
             serializableAppearanceObject3.Options.UseFont = true;
             serializableAppearanceObject3.Options.UseTextOptions = true;
             serializableAppearanceObject3.TextOptions.HotkeyPrefix = DevExpress.Utils.HKeyPrefix.Show;
-            this.buttonEditSifre.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.beSifre.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, editorButtonImageOptions1, new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, serializableAppearanceObject2, serializableAppearanceObject3, serializableAppearanceObject4, "Şifreyi Göster", null, null, DevExpress.Utils.ToolTipAnchor.Default)});
-            this.buttonEditSifre.Properties.ContextImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources._private;
-            this.buttonEditSifre.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
-            this.buttonEditSifre.Properties.Mask.BeepOnError = true;
-            this.buttonEditSifre.Properties.Mask.UseMaskAsDisplayFormat = true;
-            this.buttonEditSifre.Properties.MaxLength = 20;
-            this.buttonEditSifre.Properties.NullText = "Şifreniz..";
-            this.buttonEditSifre.Properties.NullValuePrompt = "Şifreniz...";
-            this.buttonEditSifre.Properties.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.buttonEditSifre.Properties.PasswordChar = '*';
-            this.buttonEditSifre.Properties.UseSystemPasswordChar = true;
-            this.buttonEditSifre.Size = new System.Drawing.Size(395, 50);
-            this.buttonEditSifre.TabIndex = 1;
-            this.buttonEditSifre.ButtonClick += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.buttonEditSifre_ButtonClick);
-            this.buttonEditSifre.ButtonPressed += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.buttonEditSifre_ButtonPressed);
-            // 
-            // svgImageExit
-            // 
-            this.svgImageExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.svgImageExit.Location = new System.Drawing.Point(677, 12);
-            this.svgImageExit.Margin = new System.Windows.Forms.Padding(0);
-            this.svgImageExit.Name = "svgImageExit";
-            this.svgImageExit.Size = new System.Drawing.Size(45, 39);
-            this.svgImageExit.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageExit.SvgImage")));
-            this.svgImageExit.TabIndex = 8;
-            this.svgImageExit.Text = "svgImageBox2";
-            this.svgImageExit.UseDirectXPaint = DevExpress.Utils.DefaultBoolean.True;
-            this.svgImageExit.Click += new System.EventHandler(this.svgImageExit_Click);
+            this.beSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+            this.beSifre.Properties.ContextImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources._private;
+            this.beSifre.Properties.ContextImageOptions.SvgImageColorizationMode = DevExpress.Utils.SvgImageColorizationMode.Full;
+            this.beSifre.Properties.Mask.BeepOnError = true;
+            this.beSifre.Properties.Mask.UseMaskAsDisplayFormat = true;
+            this.beSifre.Properties.MaxLength = 20;
+            this.beSifre.Properties.NullText = "Şifreniz..";
+            this.beSifre.Properties.NullValuePrompt = "Şifreniz...";
+            this.beSifre.Properties.Padding = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.beSifre.Properties.PasswordChar = '*';
+            this.beSifre.Properties.UseSystemPasswordChar = true;
+            this.beSifre.Size = new System.Drawing.Size(395, 46);
+            this.beSifre.TabIndex = 1;
+            this.beSifre.ButtonPressed += new DevExpress.XtraEditors.Controls.ButtonPressedEventHandler(this.beSifre_ButtonPressed);
+            this.beSifre.TextChanged += new System.EventHandler(this.beSifre_TextChanged);
+            this.beSifre.Click += new System.EventHandler(this.beSifre_Click);
+            this.beSifre.Validating += new System.ComponentModel.CancelEventHandler(this.beSifre_Validating);
             // 
             // svgImageBox1
             // 
@@ -208,22 +208,29 @@ namespace SinavSistemi.UI
             this.svgImageBox1.TabIndex = 6;
             this.svgImageBox1.Text = "svgImageBox1";
             // 
+            // epKullaniciAdi
+            // 
+            this.epKullaniciAdi.ContainerControl = this;
+            // 
+            // epSifre
+            // 
+            this.epSifre.ContainerControl = this;
+            // 
             // LoginUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(733, 433);
-            this.Controls.Add(this.buttonEditSifre);
+            this.Controls.Add(this.beSifre);
             this.Controls.Add(this.checkEditBeniHatirla);
-            this.Controls.Add(this.svgImageExit);
             this.Controls.Add(this.svgImageBox1);
             this.Controls.Add(this.toggleSwitchGeceModu);
             this.Controls.Add(this.btnGonder);
             this.Controls.Add(this.hyperlinkKaydol);
             this.Controls.Add(this.hyperlinkSifremiUnuttum);
-            this.Controls.Add(this.tbKullaniciAdi);
+            this.Controls.Add(this.beKullaniciAdi);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IconOptions.ShowIcon = false;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -233,12 +240,14 @@ namespace SinavSistemi.UI
             this.Text = "Sinav Sistemi";
             this.Load += new System.EventHandler(this.LoginUI_Load);
             ((System.ComponentModel.ISupportInitialize)(this.toggleSwitchGeceModu.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.tbKullaniciAdi.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEditBeniHatirla.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.buttonEditSifre.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.svgImageExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.beSifre.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.svgImageBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epKullaniciAdi)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.epSifre)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dxValidationProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,10 +259,12 @@ namespace SinavSistemi.UI
         private DevExpress.XtraEditors.SimpleButton btnGonder;
         private DevExpress.XtraEditors.ToggleSwitch toggleSwitchGeceModu;
         private DevExpress.XtraEditors.SvgImageBox svgImageBox1;
-        private DevExpress.XtraEditors.SvgImageBox svgImageExit;
-        private DevExpress.XtraEditors.TextEdit tbKullaniciAdi;
+        private DevExpress.XtraEditors.TextEdit beKullaniciAdi;
         private DevExpress.XtraEditors.CheckEdit checkEditBeniHatirla;
         private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
-        private DevExpress.XtraEditors.ButtonEdit buttonEditSifre;
+        private DevExpress.XtraEditors.ButtonEdit beSifre;
+        private DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider epKullaniciAdi;
+        private DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider epSifre;
+        private DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider dxValidationProvider1;
     }
 }

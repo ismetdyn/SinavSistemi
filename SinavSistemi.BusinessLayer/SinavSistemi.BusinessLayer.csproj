@@ -54,6 +54,10 @@
       <Project>{2f8940cc-ef34-4e45-8dea-00155f1b1ed9}</Project>
       <Name>SinavSistemi.Entity</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SinavSistemi.VerificationValidationLayer\SinavSistemi.VerificationValidationLayer.csproj">
+      <Project>{56208351-dd9a-4fb9-8140-138aed6ea468}</Project>
+      <Name>SinavSistemi.VerificationValidationLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

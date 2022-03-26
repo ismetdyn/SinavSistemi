@@ -13,9 +13,10 @@ using DevExpress.LookAndFeel;
 using DevExpress.Skins;
 using DevExpress.UserSkins;
 using SinavSistemi.Entity;
-
 using DevExpress.XtraEditors.Repository;
 using System.Reflection;
+using DevExpress.XtraEditors.DXErrorProvider;
+//using FluentValidation;
 
 namespace SinavSistemi.UI
 {
@@ -30,15 +31,11 @@ namespace SinavSistemi.UI
         {
             UserLookAndFeel.Default.SetSkinStyle("Office 2019 Colorful");
             WindowsFormsSettings.UseAdvancedFilterEditorControl = DevExpress.Utils.DefaultBoolean.True;
+            //btnGonder.Enabled = false;
             
         }
 
         Kullanici Kullanici = new Kullanici();
-
-        private void svgImageExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
 
         private void toggleSwitchGeceModu_Toggled(object sender, EventArgs e)
         {
@@ -51,37 +48,106 @@ namespace SinavSistemi.UI
             }
         }
 
-                
-
-        protected override void WndProc(ref Message m)
+        private void beSifre_ButtonPressed(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
         {
-            switch (m.Msg)
+            beSifre.Properties.PasswordChar = '\0';
+            beSifre.Properties.UseSystemPasswordChar = false;
+            beSifre.Properties.Buttons[0].ImageOptions.SvgImage = Properties.Resources.security_visibility;
+            beSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
+
+        }
+
+
+        private void beSifre_Click(object sender, EventArgs e)
+        {
+            beSifre.Properties.PasswordChar = '*';
+            beSifre.Properties.UseSystemPasswordChar = true;
+            beSifre.Properties.Buttons[0].ImageOptions.SvgImage = Properties.Resources.security_visibilityoff;
+            beSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+        }
+
+       
+        private void beSifre_Validating(object sender, CancelEventArgs e)
+        {
+        
+            if (string.IsNullOrWhiteSpace(beSifre.Text))
             {
-                case 0x84:
-                    base.WndProc(ref m);
-                    if ((int)m.Result == 0x1)
-                        m.Result = (IntPtr)0x2;
-                    return;
+                //e.Cancel = true;
+                //beSifre.Focus();
+                epSifre.SetError(beSifre, "Şifre alanı boş olamaz", ErrorType.Warning);
+                epSifre.SetIconAlignment(this.beSifre, ErrorIconAlignment.MiddleRight);
+                btnGonder.Enabled = false;
             }
-
-            base.WndProc(ref m);
+            else if (beSifre.Text.Length < 6)
+            {
+                //e.Cancel = true;
+                //beSifre.Focus();
+                epSifre.SetError(beSifre, "Şifre 6 karakterden küçük olamaz.", ErrorType.Warning);
+                epSifre.SetIconAlignment(this.beSifre, ErrorIconAlignment.MiddleRight);
+                btnGonder.Enabled = false;
+            }
+            else
+            {
+                //e.Cancel = false;
+                epSifre.SetError(beSifre, "");
+                btnGonder.Enabled = true;
+            }
+        
+        }
+        
+        
+        private void beSifre_TextChanged(object sender, EventArgs e)
+        {
+            
+            if (string.IsNullOrWhiteSpace(beSifre.Text))
+            {
+                epSifre.SetError(beSifre, "Şifre alanı boş olamaz", ErrorType.Warning);
+                epSifre.SetIconAlignment(this.beSifre, ErrorIconAlignment.MiddleRight);
+                btnGonder.Enabled = false;
+            }
+            else if (beSifre.Text.Length < 6)
+            {
+                epSifre.SetError(beSifre, "Şifre 6 karakterden küçük olamaz.", ErrorType.Warning);
+                epSifre.SetIconAlignment(this.beSifre, ErrorIconAlignment.MiddleRight);
+                btnGonder.Enabled = false;
+            }
+            else
+            {
+                epSifre.SetError(beSifre, "");
+                btnGonder.Enabled = true;
+            }
+            
         }
 
-        private void buttonEditSifre_ButtonPressed(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        private void beKullaniciAdi_Validating(object sender, CancelEventArgs e)
         {
-            buttonEditSifre.Properties.PasswordChar = '\0';
-            buttonEditSifre.Properties.UseSystemPasswordChar = false;
-            buttonEditSifre.Properties.Buttons[0].ImageOptions.SvgImage = Properties.Resources.security_visibility;
-            buttonEditSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.UltraFlat;
-
+            if (string.IsNullOrWhiteSpace(beKullaniciAdi.Text))
+            {
+                //e.Cancel = true;
+                //beKullaniciAdi.Focus();
+                epKullaniciAdi.SetError(beKullaniciAdi, "Kullanıcı adı boş olamaz", ErrorType.Warning);
+                epKullaniciAdi.SetIconAlignment(this.beKullaniciAdi, ErrorIconAlignment.MiddleRight);
+            }
+            else
+            {
+                //e.Cancel = false;
+                epKullaniciAdi.SetError(beKullaniciAdi, "");
+            }
         }
 
-        private void buttonEditSifre_ButtonClick(object sender, DevExpress.XtraEditors.Controls.ButtonPressedEventArgs e)
+        private void beKullaniciAdi_TextChanged(object sender, EventArgs e)
         {
-            buttonEditSifre.Properties.PasswordChar = '*';
-            buttonEditSifre.Properties.UseSystemPasswordChar = true;
-            buttonEditSifre.Properties.Buttons[0].ImageOptions.SvgImage = Properties.Resources.security_visibilityoff;
-            buttonEditSifre.Properties.ButtonsStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            
+            if (string.IsNullOrWhiteSpace(beKullaniciAdi.Text))
+            {
+                epKullaniciAdi.SetError(beKullaniciAdi, "Kullanıcı adı boş olamaz", ErrorType.Warning);
+                epKullaniciAdi.SetIconAlignment(this.beKullaniciAdi, ErrorIconAlignment.MiddleRight);
+            }
+            else
+            {
+                epKullaniciAdi.SetError(beKullaniciAdi, "");
+            }
+            
         }
     }
 }

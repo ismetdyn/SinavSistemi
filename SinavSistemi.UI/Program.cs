@@ -23,7 +23,7 @@ namespace SinavSistemi.UI
             DevExpress.Skins.SkinManager.EnableFormSkins();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LoginUI());
+            Application.Run(new SoruEkleUI());
             SkinManager.EnableMdiFormSkins();
         }
     }

@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FluentValidation, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0, processorArchitecture=MSIL">
+      <HintPath>..\packages\FluentValidation.10.4.0\lib\netstandard2.0\FluentValidation.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,16 +46,16 @@
   <ItemGroup>
     <Compile Include="KullaniciVVL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoruVVL.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SinavSistemi.BusinessLayer\SinavSistemi.BusinessLayer.csproj">
-      <Project>{9033c8bd-1266-4161-9988-c402d9f6dc5e}</Project>
-      <Name>SinavSistemi.BusinessLayer</Name>
-    </ProjectReference>
     <ProjectReference Include="..\SinavSistemi.Entity\SinavSistemi.Entity.csproj">
       <Project>{2f8940cc-ef34-4e45-8dea-00155f1b1ed9}</Project>
       <Name>SinavSistemi.Entity</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
