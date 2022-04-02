@@ -73,6 +73,16 @@ namespace SinavSistemi.UI.Properties {
         /// <summary>
         ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_add {
+            get {
+                object obj = ResourceManager.GetObject("actions_add", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage actions_arrow1down {
             get {
                 object obj = ResourceManager.GetObject("actions_arrow1down", resourceCulture);
@@ -126,6 +136,26 @@ namespace SinavSistemi.UI.Properties {
         internal static DevExpress.Utils.Svg.SvgImage actions_check2 {
             get {
                 object obj = ResourceManager.GetObject("actions_check2", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_database {
+            get {
+                object obj = ResourceManager.GetObject("actions_database", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage bo_folder {
+            get {
+                object obj = ResourceManager.GetObject("bo_folder", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
@@ -303,9 +333,29 @@ namespace SinavSistemi.UI.Properties {
         /// <summary>
         ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage editconnection {
+            get {
+                object obj = ResourceManager.GetObject("editconnection", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage find {
             get {
                 object obj = ResourceManager.GetObject("find", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage newdatasource {
+            get {
+                object obj = ResourceManager.GetObject("newdatasource", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
@@ -366,6 +416,16 @@ namespace SinavSistemi.UI.Properties {
         internal static DevExpress.Utils.Svg.SvgImage security_visibilityoff {
             get {
                 object obj = ResourceManager.GetObject("security_visibilityoff", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   DevExpress.Utils.Svg.SvgImage türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage updatedataextract {
+            get {
+                object obj = ResourceManager.GetObject("updatedataextract", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }

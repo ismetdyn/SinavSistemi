@@ -9,3 +9,16 @@ C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.VerificationValidatio
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.CopyComplete
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.dll
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\FluentValidation.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Entity.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Entity.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\FluentValidation.xml
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.AssemblyReference.cache
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.CoreCompileInputs.cache
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.CopyComplete
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Common.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Common.pdb

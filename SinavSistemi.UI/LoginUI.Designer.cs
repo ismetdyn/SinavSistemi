@@ -49,6 +49,7 @@ namespace SinavSistemi.UI
             this.epKullaniciAdi = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
             this.epSifre = new DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider(this.components);
             this.dxValidationProvider1 = new DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider(this.components);
+            this.fluentDesignFormContainer1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer();
             ((System.ComponentModel.ISupportInitialize)(this.toggleSwitchGeceModu.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.beKullaniciAdi.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.checkEditBeniHatirla.Properties)).BeginInit();
@@ -96,6 +97,7 @@ namespace SinavSistemi.UI
             this.btnGonder.Size = new System.Drawing.Size(114, 43);
             this.btnGonder.TabIndex = 3;
             this.btnGonder.Text = "Giriş";
+            this.btnGonder.Click += new System.EventHandler(this.btnGonder_Click);
             // 
             // toggleSwitchGeceModu
             // 
@@ -216,6 +218,14 @@ namespace SinavSistemi.UI
             // 
             this.epSifre.ContainerControl = this;
             // 
+            // fluentDesignFormContainer1
+            // 
+            this.fluentDesignFormContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.fluentDesignFormContainer1.Location = new System.Drawing.Point(0, 0);
+            this.fluentDesignFormContainer1.Name = "fluentDesignFormContainer1";
+            this.fluentDesignFormContainer1.Size = new System.Drawing.Size(733, 433);
+            this.fluentDesignFormContainer1.TabIndex = 10;
+            // 
             // LoginUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -229,6 +239,7 @@ namespace SinavSistemi.UI
             this.Controls.Add(this.hyperlinkKaydol);
             this.Controls.Add(this.hyperlinkSifremiUnuttum);
             this.Controls.Add(this.beKullaniciAdi);
+            this.Controls.Add(this.fluentDesignFormContainer1);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.IconOptions.ShowIcon = false;
@@ -266,5 +277,6 @@ namespace SinavSistemi.UI
         private DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider epKullaniciAdi;
         private DevExpress.XtraEditors.DXErrorProvider.DXErrorProvider epSifre;
         private DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider dxValidationProvider1;
+        private DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormContainer fluentDesignFormContainer1;
     }
 }

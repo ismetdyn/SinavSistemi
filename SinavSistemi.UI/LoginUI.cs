@@ -1,21 +1,14 @@
 ﻿using DevExpress.XtraEditors;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using DevExpress.XtraBars.Helpers;
 using DevExpress.LookAndFeel;
-using DevExpress.Skins;
-using DevExpress.UserSkins;
 using SinavSistemi.Entity;
-using DevExpress.XtraEditors.Repository;
-using System.Reflection;
 using DevExpress.XtraEditors.DXErrorProvider;
+using SinavSistemi.BusinessLayer;
+using SinavSistemi.ORM;
+using System.Collections.Generic;
+using System.Reflection;
 //using FluentValidation;
 
 namespace SinavSistemi.UI
@@ -33,6 +26,7 @@ namespace SinavSistemi.UI
             WindowsFormsSettings.UseAdvancedFilterEditorControl = DevExpress.Utils.DefaultBoolean.True;
             //btnGonder.Enabled = false;
             
+
         }
 
         Kullanici Kullanici = new Kullanici();
@@ -148,6 +142,71 @@ namespace SinavSistemi.UI
                 epKullaniciAdi.SetError(beKullaniciAdi, "");
             }
             
+        }
+        
+        private void btnGonder_Click(object sender, EventArgs e)
+        {
+            //Kullanici yusuf = new Kullanici();
+            //yusuf.Eposta = "yusufguner303@gmail.com";
+            //PostaciBL postaci = new PostaciBL();
+            //string sonuc = postaci.MailGonder(yusuf);
+            //MessageBox.Show(sonuc);
+
+            Kullanici ismet = new Kullanici
+            {
+                KullaniciAdi = "dasdasd",
+                Ad = "İSMETTTTTT",
+                Soyad = "DAYAN",
+                Eposta = "ADASDSADSAD",
+                Sifre = "465487",
+                KullaniciTipi = 1
+            };
+
+            Kullanici mcz = new Kullanici
+            {
+                KullaniciID = 60,
+                KullaniciAdi = "dasdasd",
+                Ad = "mcz",
+                Soyad = "zng",
+                Eposta = "ADASDSADSAD",
+                Sifre = "465487",
+                KullaniciTipi = 1
+            };
+
+            //MessageBox.Show(KullaniciORM.Current.Update(mcz).Message);
+
+            //MessageBox.Show(KullaniciORM.Current.Insert(mcz).Message);
+
+            //MessageBox.Show(KullaniciORM.Current.Delete(mcz).Message);
+
+            //List<Kullanici> kullanicis = new List<Kullanici>();
+            //kullanicis.Add(ismet);
+            //kullanicis.Add(mcz);
+            //MessageBox.Show(KullaniciORM.Current.AddRange(kullanicis).Message.ToString());
+
+            List<Kullanici> kullanicilar = KullaniciORM.Current.Select().Data;
+            string str = "";
+            try
+            {
+                foreach (Kullanici kullanici in kullanicilar)
+                {
+                    foreach (PropertyInfo pi in typeof(Kullanici).GetProperties())
+                    {
+                        str+=pi.GetValue(kullanici) + " ";
+                    }
+                }
+                MessageBox.Show(str);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+
+            //Kullanici kullanici = new Kullanici(); 
+            //kullanici = KullaniciORM.Current.GetByID(33).Data;
+
+            //MessageBox.Show(kullanici.KullaniciAdi + " " + kullanici.Ad + " " + kullanici.Soyad);
         }
     }
 }

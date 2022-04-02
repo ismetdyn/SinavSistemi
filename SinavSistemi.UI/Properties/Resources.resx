@@ -124,11 +124,17 @@
   <data name="bo_validation7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation7.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="actions_check2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_check2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="dark-mode-6682" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dark-mode-6682.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="security_lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\security_lock.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="editconnection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editconnection.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="bo_validation4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation4.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -153,6 +159,12 @@
   </data>
   <data name="actions_arrow1down" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actions_arrow1down.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="actions_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_add.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="actions_arrow4right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_arrow4right1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="del" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\del.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -190,8 +202,14 @@
   <data name="bo_validation" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
+  <data name="bo_folder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bo_folder.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
   <data name="bo_validation6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bo_validation6.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="newdatasource" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newdatasource.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="actions_arrow4right" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\actions_arrow4right.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -199,8 +217,8 @@
   <data name="del1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\del1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="actions_arrow4right1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actions_arrow4right1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="actions_database" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\actions_database.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
   <data name="weather_moon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\weather_moon1.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
@@ -217,7 +235,7 @@
   <data name="open" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="actions_check2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\actions_check2.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  <data name="updatedataextract" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\updatedataextract.svg;DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
 </root>

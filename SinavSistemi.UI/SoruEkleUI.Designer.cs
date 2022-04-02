@@ -30,18 +30,18 @@ namespace SinavSistemi.UI
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation2 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SoruEkleUI));
-            DevExpress.XtraBars.Ribbon.ReduceOperation reduceOperation1 = new DevExpress.XtraBars.Ribbon.ReduceOperation();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions1 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions2 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions3 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions4 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions5 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions6 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions7 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions customHeaderButtonImageOptions8 = new DevExpress.XtraBars.Docking.CustomHeaderButtonImageOptions();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
             this.ribbon = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.undoItem1 = new DevExpress.XtraRichEdit.UI.UndoItem();
             this.redoItem1 = new DevExpress.XtraRichEdit.UI.RedoItem();
@@ -56,7 +56,6 @@ namespace SinavSistemi.UI
             this.cutItem1 = new DevExpress.XtraRichEdit.UI.CutItem();
             this.copyItem1 = new DevExpress.XtraRichEdit.UI.CopyItem();
             this.pasteSpecialItem1 = new DevExpress.XtraRichEdit.UI.PasteSpecialItem();
-            this.barButtonGroup1 = new DevExpress.XtraBars.BarButtonGroup();
             this.changeFontNameItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontNameItem();
             this.repositoryItemFontEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemFontEdit();
             this.changeFontSizeItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontSizeItem();
@@ -64,7 +63,6 @@ namespace SinavSistemi.UI
             this.recSoru = new DevExpress.XtraRichEdit.RichEditControl();
             this.fontSizeIncreaseItem1 = new DevExpress.XtraRichEdit.UI.FontSizeIncreaseItem();
             this.fontSizeDecreaseItem1 = new DevExpress.XtraRichEdit.UI.FontSizeDecreaseItem();
-            this.barButtonGroup2 = new DevExpress.XtraBars.BarButtonGroup();
             this.toggleFontBoldItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontBoldItem();
             this.toggleFontItalicItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontItalicItem();
             this.toggleFontUnderlineItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontUnderlineItem();
@@ -73,7 +71,6 @@ namespace SinavSistemi.UI
             this.toggleFontDoubleStrikeoutItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontDoubleStrikeoutItem();
             this.toggleFontSuperscriptItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontSuperscriptItem();
             this.toggleFontSubscriptItem1 = new DevExpress.XtraRichEdit.UI.ToggleFontSubscriptItem();
-            this.barButtonGroup3 = new DevExpress.XtraBars.BarButtonGroup();
             this.changeFontColorItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontColorItem();
             this.changeFontHighlightColorItem1 = new DevExpress.XtraRichEdit.UI.ChangeFontHighlightColorItem();
             this.changeTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ChangeTextCaseItem();
@@ -82,22 +79,18 @@ namespace SinavSistemi.UI
             this.capitalizeEachWordCaseItem1 = new DevExpress.XtraRichEdit.UI.CapitalizeEachWordCaseItem();
             this.toggleTextCaseItem1 = new DevExpress.XtraRichEdit.UI.ToggleTextCaseItem();
             this.clearFormattingItem1 = new DevExpress.XtraRichEdit.UI.ClearFormattingItem();
-            this.barButtonGroup4 = new DevExpress.XtraBars.BarButtonGroup();
             this.toggleBulletedListItem1 = new DevExpress.XtraRichEdit.UI.ToggleBulletedListItem();
             this.toggleNumberingListItem1 = new DevExpress.XtraRichEdit.UI.ToggleNumberingListItem();
             this.toggleMultiLevelListItem1 = new DevExpress.XtraRichEdit.UI.ToggleMultiLevelListItem();
+            this.decreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.DecreaseIndentItem();
+            this.ıncreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.IncreaseIndentItem();
             this.rtlToggleBulletedListItem1 = new DevExpress.XtraRichEdit.UI.RtlToggleBulletedListItem();
             this.rtlToggleNumberingListItem1 = new DevExpress.XtraRichEdit.UI.RtlToggleNumberingListItem();
             this.rtlToggleMultiLevelListItem1 = new DevExpress.XtraRichEdit.UI.RtlToggleMultiLevelListItem();
-            this.barButtonGroup5 = new DevExpress.XtraBars.BarButtonGroup();
-            this.decreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.DecreaseIndentItem();
-            this.ıncreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.IncreaseIndentItem();
             this.rtlDecreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.RtlDecreaseIndentItem();
             this.rtlIncreaseIndentItem1 = new DevExpress.XtraRichEdit.UI.RtlIncreaseIndentItem();
             this.toggleParagraphLeftToRightItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphLeftToRightItem();
             this.toggleParagraphRightToLeftItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphRightToLeftItem();
-            this.toggleShowWhitespaceItem1 = new DevExpress.XtraRichEdit.UI.ToggleShowWhitespaceItem();
-            this.barButtonGroup6 = new DevExpress.XtraBars.BarButtonGroup();
             this.toggleParagraphAlignmentLeftItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentLeftItem();
             this.toggleParagraphAlignmentCenterItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentCenterItem();
             this.toggleParagraphAlignmentRightItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentRightItem();
@@ -109,7 +102,7 @@ namespace SinavSistemi.UI
             this.toggleParagraphAlignmentJustifyHighItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentJustifyHighItem();
             this.toggleParagraphAlignmentDistributeItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentDistributeItem();
             this.toggleParagraphAlignmentThaiDistributeItem1 = new DevExpress.XtraRichEdit.UI.ToggleParagraphAlignmentThaiDistributeItem();
-            this.barButtonGroup7 = new DevExpress.XtraBars.BarButtonGroup();
+            this.toggleShowWhitespaceItem1 = new DevExpress.XtraRichEdit.UI.ToggleShowWhitespaceItem();
             this.changeParagraphLineSpacingItem1 = new DevExpress.XtraRichEdit.UI.ChangeParagraphLineSpacingItem();
             this.setSingleParagraphSpacingItem1 = new DevExpress.XtraRichEdit.UI.SetSingleParagraphSpacingItem();
             this.setSesquialteralParagraphSpacingItem1 = new DevExpress.XtraRichEdit.UI.SetSesquialteralParagraphSpacingItem();
@@ -239,19 +232,13 @@ namespace SinavSistemi.UI
             this.setHyphenateDocumentAutomaticItem1 = new DevExpress.XtraRichEdit.UI.SetHyphenateDocumentAutomaticItem();
             this.showHyphenationOptionsFormItem1 = new DevExpress.XtraRichEdit.UI.ShowHyphenationOptionsFormItem();
             this.changePageColorItem1 = new DevExpress.XtraRichEdit.UI.ChangePageColorItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem2 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             this.tableToolsRibbonPageCategory1 = new DevExpress.XtraRichEdit.UI.TableToolsRibbonPageCategory();
-            this.tableDesignRibbonPage1 = new DevExpress.XtraRichEdit.UI.TableDesignRibbonPage();
-            this.tableStyleOptionsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableStyleOptionsRibbonPageGroup();
-            this.tableStylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableStylesRibbonPageGroup();
-            this.tableDrawBordersRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableDrawBordersRibbonPageGroup();
-            this.tableLayoutRibbonPage1 = new DevExpress.XtraRichEdit.UI.TableLayoutRibbonPage();
-            this.tableTableRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableTableRibbonPageGroup();
-            this.tableRowsAndColumnsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableRowsAndColumnsRibbonPageGroup();
-            this.tableMergeRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableMergeRibbonPageGroup();
-            this.tableCellSizeRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableCellSizeRibbonPageGroup();
-            this.tableAlignmentRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableAlignmentRibbonPageGroup();
             this.fileRibbonPage1 = new DevExpress.XtraRichEdit.UI.FileRibbonPage();
             this.commonRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.CommonRibbonPageGroup();
+            this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.homeRibbonPage1 = new DevExpress.XtraRichEdit.UI.HomeRibbonPage();
             this.clipboardRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.ClipboardRibbonPageGroup();
             this.fontRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.FontRibbonPageGroup();
@@ -269,12 +256,36 @@ namespace SinavSistemi.UI
             this.pageLayoutRibbonPage1 = new DevExpress.XtraRichEdit.UI.PageLayoutRibbonPage();
             this.pageSetupRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.PageSetupRibbonPageGroup();
             this.pageBackgroundRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.PageBackgroundRibbonPageGroup();
+            this.tableLayoutRibbonPage1 = new DevExpress.XtraRichEdit.UI.TableLayoutRibbonPage();
+            this.tableTableRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableTableRibbonPageGroup();
+            this.tableRowsAndColumnsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableRowsAndColumnsRibbonPageGroup();
+            this.tableMergeRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableMergeRibbonPageGroup();
+            this.tableCellSizeRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableCellSizeRibbonPageGroup();
+            this.tableAlignmentRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableAlignmentRibbonPageGroup();
             this.viewRibbonPage1 = new DevExpress.XtraRichEdit.UI.ViewRibbonPage();
             this.documentViewsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.DocumentViewsRibbonPageGroup();
             this.showRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.ShowRibbonPageGroup();
             this.zoomRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.ZoomRibbonPageGroup();
+            this.tableDesignRibbonPage1 = new DevExpress.XtraRichEdit.UI.TableDesignRibbonPage();
+            this.tableStyleOptionsRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableStyleOptionsRibbonPageGroup();
+            this.tableStylesRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableStylesRibbonPageGroup();
+            this.tableDrawBordersRibbonPageGroup1 = new DevExpress.XtraRichEdit.UI.TableDrawBordersRibbonPageGroup();
+            this.barButtonGroup1 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup2 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup3 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup4 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup5 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup6 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup7 = new DevExpress.XtraBars.BarButtonGroup();
+            this.barButtonGroup15 = new DevExpress.XtraBars.BarButtonGroup();
             this.richEditBarController1 = new DevExpress.XtraRichEdit.UI.RichEditBarController(this.components);
             this.dockManager1 = new DevExpress.XtraBars.Docking.DockManager(this.components);
+            this.hideContainerRight = new DevExpress.XtraBars.Docking.AutoHideContainer();
+            this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.hideContainerLeft = new DevExpress.XtraBars.Docking.AutoHideContainer();
             this.dockPanelSoruNitelik = new DevExpress.XtraBars.Docking.DockPanel();
             this.dockPanel1_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.ımageComboBoxEdit6 = new DevExpress.XtraEditors.ImageComboBoxEdit();
@@ -287,8 +298,6 @@ namespace SinavSistemi.UI
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
-            this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
-            this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.npCevaplar = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.npA = new DevExpress.XtraBars.Navigation.NavigationPage();
@@ -308,6 +317,12 @@ namespace SinavSistemi.UI
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineWeight1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.richEditBarController1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
+            this.hideContainerRight.SuspendLayout();
+            this.dockPanel2.SuspendLayout();
+            this.dockPanel2_Container.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.hideContainerLeft.SuspendLayout();
             this.dockPanelSoruNitelik.SuspendLayout();
             this.dockPanel1_Container.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit6.Properties)).BeginInit();
@@ -315,7 +330,6 @@ namespace SinavSistemi.UI
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit4.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit2.Properties)).BeginInit();
-            this.dockPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.npCevaplar)).BeginInit();
@@ -348,12 +362,10 @@ namespace SinavSistemi.UI
             this.cutItem1,
             this.copyItem1,
             this.pasteSpecialItem1,
-            this.barButtonGroup1,
             this.changeFontNameItem1,
             this.changeFontSizeItem1,
             this.fontSizeIncreaseItem1,
             this.fontSizeDecreaseItem1,
-            this.barButtonGroup2,
             this.toggleFontBoldItem1,
             this.toggleFontItalicItem1,
             this.toggleFontUnderlineItem1,
@@ -362,7 +374,6 @@ namespace SinavSistemi.UI
             this.toggleFontDoubleStrikeoutItem1,
             this.toggleFontSuperscriptItem1,
             this.toggleFontSubscriptItem1,
-            this.barButtonGroup3,
             this.changeFontColorItem1,
             this.changeFontHighlightColorItem1,
             this.changeTextCaseItem1,
@@ -371,11 +382,9 @@ namespace SinavSistemi.UI
             this.capitalizeEachWordCaseItem1,
             this.toggleTextCaseItem1,
             this.clearFormattingItem1,
-            this.barButtonGroup4,
             this.toggleBulletedListItem1,
             this.toggleNumberingListItem1,
             this.toggleMultiLevelListItem1,
-            this.barButtonGroup5,
             this.decreaseIndentItem1,
             this.ıncreaseIndentItem1,
             this.rtlToggleBulletedListItem1,
@@ -385,7 +394,6 @@ namespace SinavSistemi.UI
             this.rtlIncreaseIndentItem1,
             this.toggleParagraphLeftToRightItem1,
             this.toggleParagraphRightToLeftItem1,
-            this.barButtonGroup6,
             this.toggleParagraphAlignmentLeftItem1,
             this.toggleParagraphAlignmentCenterItem1,
             this.toggleParagraphAlignmentRightItem1,
@@ -398,7 +406,6 @@ namespace SinavSistemi.UI
             this.toggleParagraphAlignmentDistributeItem1,
             this.toggleParagraphAlignmentThaiDistributeItem1,
             this.toggleShowWhitespaceItem1,
-            this.barButtonGroup7,
             this.changeParagraphLineSpacingItem1,
             this.setSingleParagraphSpacingItem1,
             this.setSesquialteralParagraphSpacingItem1,
@@ -525,9 +532,12 @@ namespace SinavSistemi.UI
             this.setHyphenateDocumentNoneItem1,
             this.setHyphenateDocumentAutomaticItem1,
             this.showHyphenationOptionsFormItem1,
-            this.changePageColorItem1});
+            this.changePageColorItem1,
+            this.barButtonItem1,
+            this.barButtonItem2,
+            this.barButtonItem3});
             this.ribbon.Location = new System.Drawing.Point(0, 0);
-            this.ribbon.MaxItemId = 194;
+            this.ribbon.MaxItemId = 198;
             this.ribbon.Name = "ribbon";
             this.ribbon.PageCategories.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageCategory[] {
             this.tableToolsRibbonPageCategory1});
@@ -536,13 +546,15 @@ namespace SinavSistemi.UI
             this.homeRibbonPage1,
             this.ınsertRibbonPage1,
             this.pageLayoutRibbonPage1,
-            this.viewRibbonPage1});
+            this.tableLayoutRibbonPage1,
+            this.viewRibbonPage1,
+            this.tableDesignRibbonPage1});
             this.ribbon.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.repositoryItemFontEdit1,
             this.repositoryItemRichEditFontSizeEdit1,
             this.repositoryItemBorderLineStyle1,
             this.repositoryItemBorderLineWeight1});
-            this.ribbon.Size = new System.Drawing.Size(1789, 157);
+            this.ribbon.Size = new System.Drawing.Size(1789, 180);
             // 
             // undoItem1
             // 
@@ -609,16 +621,6 @@ namespace SinavSistemi.UI
             this.pasteSpecialItem1.Id = 22;
             this.pasteSpecialItem1.Name = "pasteSpecialItem1";
             // 
-            // barButtonGroup1
-            // 
-            this.barButtonGroup1.Id = 12;
-            this.barButtonGroup1.ItemLinks.Add(this.changeFontNameItem1, "FF");
-            this.barButtonGroup1.ItemLinks.Add(this.changeFontSizeItem1);
-            this.barButtonGroup1.ItemLinks.Add(this.fontSizeIncreaseItem1, "FG");
-            this.barButtonGroup1.ItemLinks.Add(this.fontSizeDecreaseItem1, "FK");
-            this.barButtonGroup1.Name = "barButtonGroup1";
-            this.barButtonGroup1.Tag = "{97BBE334-159B-44d9-A168-0411957565E8}";
-            // 
             // changeFontNameItem1
             // 
             this.changeFontNameItem1.Edit = this.repositoryItemFontEdit1;
@@ -654,7 +656,7 @@ namespace SinavSistemi.UI
             this.recSoru.Location = new System.Drawing.Point(0, 0);
             this.recSoru.MenuManager = this.ribbon;
             this.recSoru.Name = "recSoru";
-            this.recSoru.Size = new System.Drawing.Size(1165, 290);
+            this.recSoru.Size = new System.Drawing.Size(1745, 290);
             this.recSoru.TabIndex = 0;
             // 
             // fontSizeIncreaseItem1
@@ -666,20 +668,6 @@ namespace SinavSistemi.UI
             // 
             this.fontSizeDecreaseItem1.Id = 26;
             this.fontSizeDecreaseItem1.Name = "fontSizeDecreaseItem1";
-            // 
-            // barButtonGroup2
-            // 
-            this.barButtonGroup2.Id = 13;
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontBoldItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontItalicItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontUnderlineItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontDoubleUnderlineItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontStrikeoutItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontDoubleStrikeoutItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontSuperscriptItem1);
-            this.barButtonGroup2.ItemLinks.Add(this.toggleFontSubscriptItem1);
-            this.barButtonGroup2.Name = "barButtonGroup2";
-            this.barButtonGroup2.Tag = "{433DA7F0-03E2-4650-9DB5-66DD92D16E39}";
             // 
             // toggleFontBoldItem1
             // 
@@ -720,14 +708,6 @@ namespace SinavSistemi.UI
             // 
             this.toggleFontSubscriptItem1.Id = 34;
             this.toggleFontSubscriptItem1.Name = "toggleFontSubscriptItem1";
-            // 
-            // barButtonGroup3
-            // 
-            this.barButtonGroup3.Id = 14;
-            this.barButtonGroup3.ItemLinks.Add(this.changeFontColorItem1, "FC");
-            this.barButtonGroup3.ItemLinks.Add(this.changeFontHighlightColorItem1, "I");
-            this.barButtonGroup3.Name = "barButtonGroup3";
-            this.barButtonGroup3.Tag = "{DF8C5334-EDE3-47c9-A42C-FE9A9247E180}";
             // 
             // changeFontColorItem1
             // 
@@ -774,18 +754,6 @@ namespace SinavSistemi.UI
             this.clearFormattingItem1.Id = 42;
             this.clearFormattingItem1.Name = "clearFormattingItem1";
             // 
-            // barButtonGroup4
-            // 
-            this.barButtonGroup4.Id = 15;
-            this.barButtonGroup4.ItemLinks.Add(this.toggleBulletedListItem1, "U");
-            this.barButtonGroup4.ItemLinks.Add(this.toggleNumberingListItem1, "N");
-            this.barButtonGroup4.ItemLinks.Add(this.toggleMultiLevelListItem1, "M");
-            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleBulletedListItem1, "U");
-            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleNumberingListItem1, "N");
-            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleMultiLevelListItem1, "M");
-            this.barButtonGroup4.Name = "barButtonGroup4";
-            this.barButtonGroup4.Tag = "{0B3A7A43-3079-4ce0-83A8-3789F5F6DC9F}";
-            // 
             // toggleBulletedListItem1
             // 
             this.toggleBulletedListItem1.Id = 43;
@@ -801,6 +769,16 @@ namespace SinavSistemi.UI
             this.toggleMultiLevelListItem1.Id = 45;
             this.toggleMultiLevelListItem1.Name = "toggleMultiLevelListItem1";
             // 
+            // decreaseIndentItem1
+            // 
+            this.decreaseIndentItem1.Id = 46;
+            this.decreaseIndentItem1.Name = "decreaseIndentItem1";
+            // 
+            // ıncreaseIndentItem1
+            // 
+            this.ıncreaseIndentItem1.Id = 47;
+            this.ıncreaseIndentItem1.Name = "ıncreaseIndentItem1";
+            // 
             // rtlToggleBulletedListItem1
             // 
             this.rtlToggleBulletedListItem1.Id = 48;
@@ -815,29 +793,6 @@ namespace SinavSistemi.UI
             // 
             this.rtlToggleMultiLevelListItem1.Id = 50;
             this.rtlToggleMultiLevelListItem1.Name = "rtlToggleMultiLevelListItem1";
-            // 
-            // barButtonGroup5
-            // 
-            this.barButtonGroup5.Id = 16;
-            this.barButtonGroup5.ItemLinks.Add(this.decreaseIndentItem1, "AO");
-            this.barButtonGroup5.ItemLinks.Add(this.ıncreaseIndentItem1, "AI");
-            this.barButtonGroup5.ItemLinks.Add(this.rtlDecreaseIndentItem1, "AO");
-            this.barButtonGroup5.ItemLinks.Add(this.rtlIncreaseIndentItem1, "AI");
-            this.barButtonGroup5.ItemLinks.Add(this.toggleParagraphLeftToRightItem1);
-            this.barButtonGroup5.ItemLinks.Add(this.toggleParagraphRightToLeftItem1);
-            this.barButtonGroup5.ItemLinks.Add(this.toggleShowWhitespaceItem1);
-            this.barButtonGroup5.Name = "barButtonGroup5";
-            this.barButtonGroup5.Tag = "{4747D5AB-2BEB-4ea6-9A1D-8E4FB36F1B40}";
-            // 
-            // decreaseIndentItem1
-            // 
-            this.decreaseIndentItem1.Id = 46;
-            this.decreaseIndentItem1.Name = "decreaseIndentItem1";
-            // 
-            // ıncreaseIndentItem1
-            // 
-            this.ıncreaseIndentItem1.Id = 47;
-            this.ıncreaseIndentItem1.Name = "ıncreaseIndentItem1";
             // 
             // rtlDecreaseIndentItem1
             // 
@@ -858,24 +813,6 @@ namespace SinavSistemi.UI
             // 
             this.toggleParagraphRightToLeftItem1.Id = 54;
             this.toggleParagraphRightToLeftItem1.Name = "toggleParagraphRightToLeftItem1";
-            // 
-            // toggleShowWhitespaceItem1
-            // 
-            this.toggleShowWhitespaceItem1.Id = 66;
-            this.toggleShowWhitespaceItem1.Name = "toggleShowWhitespaceItem1";
-            // 
-            // barButtonGroup6
-            // 
-            this.barButtonGroup6.Id = 17;
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentLeftItem1, "AL");
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentCenterItem1, "AC");
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentRightItem1, "AR");
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentJustifyItem1, "AJ");
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentArabicJustifyGroupItem1);
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentDistributeItem1);
-            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentThaiDistributeItem1);
-            this.barButtonGroup6.Name = "barButtonGroup6";
-            this.barButtonGroup6.Tag = "{8E89E775-996E-49a0-AADA-DE338E34732E}";
             // 
             // toggleParagraphAlignmentLeftItem1
             // 
@@ -937,13 +874,10 @@ namespace SinavSistemi.UI
             this.toggleParagraphAlignmentThaiDistributeItem1.Id = 65;
             this.toggleParagraphAlignmentThaiDistributeItem1.Name = "toggleParagraphAlignmentThaiDistributeItem1";
             // 
-            // barButtonGroup7
+            // toggleShowWhitespaceItem1
             // 
-            this.barButtonGroup7.Id = 18;
-            this.barButtonGroup7.ItemLinks.Add(this.changeParagraphLineSpacingItem1, "K");
-            this.barButtonGroup7.ItemLinks.Add(this.changeParagraphBackColorItem1, "H");
-            this.barButtonGroup7.Name = "barButtonGroup7";
-            this.barButtonGroup7.Tag = "{9A8DEAD8-3890-4857-A395-EC625FD02217}";
+            this.toggleShowWhitespaceItem1.Id = 66;
+            this.toggleShowWhitespaceItem1.Name = "toggleShowWhitespaceItem1";
             // 
             // changeParagraphLineSpacingItem1
             // 
@@ -1011,7 +945,7 @@ namespace SinavSistemi.UI
             // 
             this.galleryChangeStyleItem1.Gallery.ColumnCount = 10;
             this.galleryChangeStyleItem1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup1});
+            galleryItemGroup3});
             this.galleryChangeStyleItem1.Gallery.ImageSize = new System.Drawing.Size(65, 46);
             this.galleryChangeStyleItem1.Id = 77;
             this.galleryChangeStyleItem1.Name = "galleryChangeStyleItem1";
@@ -1161,7 +1095,7 @@ namespace SinavSistemi.UI
             // 
             this.galleryChangeTableStyleItem1.Gallery.ColumnCount = 3;
             this.galleryChangeTableStyleItem1.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup2});
+            galleryItemGroup4});
             this.galleryChangeTableStyleItem1.Gallery.ImageSize = new System.Drawing.Size(65, 46);
             this.galleryChangeTableStyleItem1.Id = 104;
             this.galleryChangeTableStyleItem1.ModifyItemLink = null;
@@ -1736,114 +1670,42 @@ namespace SinavSistemi.UI
             this.changePageColorItem1.Id = 193;
             this.changePageColorItem1.Name = "changePageColorItem1";
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Tüm Sorular";
+            this.barButtonItem1.Id = 195;
+            this.barButtonItem1.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.editconnection;
+            this.barButtonItem1.Name = "barButtonItem1";
+            // 
+            // barButtonItem2
+            // 
+            this.barButtonItem2.Caption = "Gönder";
+            this.barButtonItem2.Id = 196;
+            this.barButtonItem2.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.newdatasource;
+            this.barButtonItem2.Name = "barButtonItem2";
+            // 
+            // barButtonItem3
+            // 
+            this.barButtonItem3.Caption = "Güncelle";
+            this.barButtonItem3.Id = 197;
+            this.barButtonItem3.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.updatedataextract;
+            this.barButtonItem3.Name = "barButtonItem3";
+            // 
             // tableToolsRibbonPageCategory1
             // 
             this.tableToolsRibbonPageCategory1.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(233)))), ((int)(((byte)(20)))));
             this.tableToolsRibbonPageCategory1.Appearance.Options.UseBackColor = true;
             this.tableToolsRibbonPageCategory1.Control = this.recSoru;
             this.tableToolsRibbonPageCategory1.Name = "tableToolsRibbonPageCategory1";
-            this.tableToolsRibbonPageCategory1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
-            this.tableDesignRibbonPage1,
-            this.tableLayoutRibbonPage1});
-            // 
-            // tableDesignRibbonPage1
-            // 
-            this.tableDesignRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.tableStyleOptionsRibbonPageGroup1,
-            this.tableStylesRibbonPageGroup1,
-            this.tableDrawBordersRibbonPageGroup1});
-            this.tableDesignRibbonPage1.Name = "tableDesignRibbonPage1";
-            // 
-            // tableStyleOptionsRibbonPageGroup1
-            // 
-            this.tableStyleOptionsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleFirstRowItem1);
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleLastRowItem1);
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleBandedRowsItem1);
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleFirstColumnItem1);
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleLastColumnItem1);
-            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleBandedColumnsItem1);
-            this.tableStyleOptionsRibbonPageGroup1.Name = "tableStyleOptionsRibbonPageGroup1";
-            // 
-            // tableStylesRibbonPageGroup1
-            // 
-            this.tableStylesRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.tableStylesRibbonPageGroup1.ItemLinks.Add(this.galleryChangeTableStyleItem1);
-            this.tableStylesRibbonPageGroup1.Name = "tableStylesRibbonPageGroup1";
-            // 
-            // tableDrawBordersRibbonPageGroup1
-            // 
-            this.tableDrawBordersRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
-            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderLineStyleItem1);
-            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderLineWeightItem1);
-            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderColorItem1, "C");
-            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBordersItem1, "B");
-            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableCellsShadingItem1, "H");
-            this.tableDrawBordersRibbonPageGroup1.Name = "tableDrawBordersRibbonPageGroup1";
-            // 
-            // tableLayoutRibbonPage1
-            // 
-            this.tableLayoutRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.tableTableRibbonPageGroup1,
-            this.tableRowsAndColumnsRibbonPageGroup1,
-            this.tableMergeRibbonPageGroup1,
-            this.tableCellSizeRibbonPageGroup1,
-            this.tableAlignmentRibbonPageGroup1});
-            this.tableLayoutRibbonPage1.Name = "tableLayoutRibbonPage1";
-            // 
-            // tableTableRibbonPageGroup1
-            // 
-            this.tableTableRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.selectTableElementsItem1, "K");
-            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.toggleShowTableGridLinesItem1, "TG");
-            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.showTablePropertiesFormItem1, "O");
-            this.tableTableRibbonPageGroup1.Name = "tableTableRibbonPageGroup1";
-            // 
-            // tableRowsAndColumnsRibbonPageGroup1
-            // 
-            this.tableRowsAndColumnsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
-            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.deleteTableElementsItem1, "D");
-            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableRowAboveItem1, "A");
-            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableRowBelowItem1, "E");
-            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableColumnToLeftItem1, "L");
-            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableColumnToRightItem1, "R");
-            this.tableRowsAndColumnsRibbonPageGroup1.Name = "tableRowsAndColumnsRibbonPageGroup1";
-            // 
-            // tableMergeRibbonPageGroup1
-            // 
-            this.tableMergeRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.mergeTableCellsItem1, "M");
-            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.showSplitTableCellsForm1, "P");
-            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.splitTableItem1, "Q");
-            this.tableMergeRibbonPageGroup1.Name = "tableMergeRibbonPageGroup1";
-            // 
-            // tableCellSizeRibbonPageGroup1
-            // 
-            this.tableCellSizeRibbonPageGroup1.AllowTextClipping = false;
-            this.tableCellSizeRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
-            this.tableCellSizeRibbonPageGroup1.ItemLinks.Add(this.toggleTableAutoFitItem1, "F");
-            this.tableCellSizeRibbonPageGroup1.Name = "tableCellSizeRibbonPageGroup1";
-            // 
-            // tableAlignmentRibbonPageGroup1
-            // 
-            this.tableAlignmentRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
-            this.tableAlignmentRibbonPageGroup1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("tableAlignmentRibbonPageGroup1.ImageOptions.Image")));
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopLeftAlignmentItem1, "TL");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleLeftAlignmentItem1, "CL");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomLeftAlignmentItem1, "BL");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopCenterAlignmentItem1, "TC");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleCenterAlignmentItem1, "CC");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomCenterAlignmentItem1, "BC");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopRightAlignmentItem1, "TR");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleRightAlignmentItem1, "CR");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomRightAlignmentItem1, "BR");
-            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.showTableOptionsFormItem1, "N");
-            this.tableAlignmentRibbonPageGroup1.Name = "tableAlignmentRibbonPageGroup1";
             // 
             // fileRibbonPage1
             // 
+            this.fileRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fileRibbonPage1.Appearance.Options.UseFont = true;
             this.fileRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
-            this.commonRibbonPageGroup1});
+            this.commonRibbonPageGroup1,
+            this.ribbonPageGroup1});
+            this.fileRibbonPage1.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.bo_folder;
             this.fileRibbonPage1.Name = "fileRibbonPage1";
             // 
             // commonRibbonPageGroup1
@@ -1860,21 +1722,37 @@ namespace SinavSistemi.UI
             this.commonRibbonPageGroup1.ItemLinks.Add(this.printPreviewItem1);
             this.commonRibbonPageGroup1.Name = "commonRibbonPageGroup1";
             // 
+            // ribbonPageGroup1
+            // 
+            this.ribbonPageGroup1.Alignment = DevExpress.XtraBars.Ribbon.RibbonPageGroupAlignment.Far;
+            this.ribbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.ribbonPageGroup1.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.actions_database;
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem1);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem2);
+            this.ribbonPageGroup1.ItemLinks.Add(this.barButtonItem3);
+            this.ribbonPageGroup1.ItemsLayout = DevExpress.XtraBars.Ribbon.RibbonPageGroupItemsLayout.ThreeRows;
+            this.ribbonPageGroup1.Name = "ribbonPageGroup1";
+            this.ribbonPageGroup1.State = DevExpress.XtraBars.Ribbon.RibbonPageGroupState.Expanded;
+            this.ribbonPageGroup1.Text = "Soru Vertabanı";
+            // 
             // homeRibbonPage1
             // 
+            this.homeRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.homeRibbonPage1.Appearance.Options.UseFont = true;
             this.homeRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.clipboardRibbonPageGroup1,
             this.fontRibbonPageGroup1,
             this.paragraphRibbonPageGroup1,
             this.stylesRibbonPageGroup1,
             this.editingRibbonPageGroup1});
+            this.homeRibbonPage1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("homeRibbonPage1.ImageOptions.SvgImage")));
             this.homeRibbonPage1.Name = "homeRibbonPage1";
-            reduceOperation1.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.UntilAvailable;
-            reduceOperation1.GroupName = null;
-            reduceOperation1.ItemLinkIndex = 0;
-            reduceOperation1.ItemLinksCount = 0;
-            reduceOperation1.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.Gallery;
-            this.homeRibbonPage1.ReduceOperations.Add(reduceOperation1);
+            reduceOperation2.Behavior = DevExpress.XtraBars.Ribbon.ReduceOperationBehavior.UntilAvailable;
+            reduceOperation2.GroupName = null;
+            reduceOperation2.ItemLinkIndex = 0;
+            reduceOperation2.ItemLinksCount = 0;
+            reduceOperation2.Operation = DevExpress.XtraBars.Ribbon.ReduceOperationType.Gallery;
+            this.homeRibbonPage1.ReduceOperations.Add(reduceOperation2);
             // 
             // clipboardRibbonPageGroup1
             // 
@@ -1920,6 +1798,8 @@ namespace SinavSistemi.UI
             // 
             // ınsertRibbonPage1
             // 
+            this.ınsertRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ınsertRibbonPage1.Appearance.Options.UseFont = true;
             this.ınsertRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.pagesRibbonPageGroup1,
             this.tablesRibbonPageGroup1,
@@ -1928,6 +1808,7 @@ namespace SinavSistemi.UI
             this.headerFooterRibbonPageGroup1,
             this.textRibbonPageGroup1,
             this.symbolsRibbonPageGroup1});
+            this.ınsertRibbonPage1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("ınsertRibbonPage1.ImageOptions.SvgImage")));
             this.ınsertRibbonPage1.Name = "ınsertRibbonPage1";
             // 
             // pagesRibbonPageGroup1
@@ -1982,9 +1863,12 @@ namespace SinavSistemi.UI
             // 
             // pageLayoutRibbonPage1
             // 
+            this.pageLayoutRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.pageLayoutRibbonPage1.Appearance.Options.UseFont = true;
             this.pageLayoutRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.pageSetupRibbonPageGroup1,
             this.pageBackgroundRibbonPageGroup1});
+            this.pageLayoutRibbonPage1.ImageOptions.SvgImage = global::SinavSistemi.UI.Properties.Resources.bo_note1;
             this.pageLayoutRibbonPage1.Name = "pageLayoutRibbonPage1";
             // 
             // pageSetupRibbonPageGroup1
@@ -2006,8 +1890,72 @@ namespace SinavSistemi.UI
             this.pageBackgroundRibbonPageGroup1.ItemLinks.Add(this.changePageColorItem1, "PC");
             this.pageBackgroundRibbonPageGroup1.Name = "pageBackgroundRibbonPageGroup1";
             // 
+            // tableLayoutRibbonPage1
+            // 
+            this.tableLayoutRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tableLayoutRibbonPage1.Appearance.Options.UseFont = true;
+            this.tableLayoutRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.tableTableRibbonPageGroup1,
+            this.tableRowsAndColumnsRibbonPageGroup1,
+            this.tableMergeRibbonPageGroup1,
+            this.tableCellSizeRibbonPageGroup1,
+            this.tableAlignmentRibbonPageGroup1});
+            this.tableLayoutRibbonPage1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("tableLayoutRibbonPage1.ImageOptions.SvgImage")));
+            this.tableLayoutRibbonPage1.Name = "tableLayoutRibbonPage1";
+            // 
+            // tableTableRibbonPageGroup1
+            // 
+            this.tableTableRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.selectTableElementsItem1, "K");
+            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.toggleShowTableGridLinesItem1, "TG");
+            this.tableTableRibbonPageGroup1.ItemLinks.Add(this.showTablePropertiesFormItem1, "O");
+            this.tableTableRibbonPageGroup1.Name = "tableTableRibbonPageGroup1";
+            // 
+            // tableRowsAndColumnsRibbonPageGroup1
+            // 
+            this.tableRowsAndColumnsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
+            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.deleteTableElementsItem1, "D");
+            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableRowAboveItem1, "A");
+            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableRowBelowItem1, "E");
+            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableColumnToLeftItem1, "L");
+            this.tableRowsAndColumnsRibbonPageGroup1.ItemLinks.Add(this.ınsertTableColumnToRightItem1, "R");
+            this.tableRowsAndColumnsRibbonPageGroup1.Name = "tableRowsAndColumnsRibbonPageGroup1";
+            // 
+            // tableMergeRibbonPageGroup1
+            // 
+            this.tableMergeRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.mergeTableCellsItem1, "M");
+            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.showSplitTableCellsForm1, "P");
+            this.tableMergeRibbonPageGroup1.ItemLinks.Add(this.splitTableItem1, "Q");
+            this.tableMergeRibbonPageGroup1.Name = "tableMergeRibbonPageGroup1";
+            // 
+            // tableCellSizeRibbonPageGroup1
+            // 
+            this.tableCellSizeRibbonPageGroup1.AllowTextClipping = false;
+            this.tableCellSizeRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
+            this.tableCellSizeRibbonPageGroup1.ItemLinks.Add(this.toggleTableAutoFitItem1, "F");
+            this.tableCellSizeRibbonPageGroup1.Name = "tableCellSizeRibbonPageGroup1";
+            // 
+            // tableAlignmentRibbonPageGroup1
+            // 
+            this.tableAlignmentRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.tableAlignmentRibbonPageGroup1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("tableAlignmentRibbonPageGroup1.ImageOptions.Image")));
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopLeftAlignmentItem1, "TL");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleLeftAlignmentItem1, "CL");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomLeftAlignmentItem1, "BL");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopCenterAlignmentItem1, "TC");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleCenterAlignmentItem1, "CC");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomCenterAlignmentItem1, "BC");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsTopRightAlignmentItem1, "TR");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsMiddleRightAlignmentItem1, "CR");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.toggleTableCellsBottomRightAlignmentItem1, "BR");
+            this.tableAlignmentRibbonPageGroup1.ItemLinks.Add(this.showTableOptionsFormItem1, "N");
+            this.tableAlignmentRibbonPageGroup1.Name = "tableAlignmentRibbonPageGroup1";
+            // 
             // viewRibbonPage1
             // 
+            this.viewRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.viewRibbonPage1.Appearance.Options.UseFont = true;
             this.viewRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.documentViewsRibbonPageGroup1,
             this.showRibbonPageGroup1,
@@ -2035,6 +1983,127 @@ namespace SinavSistemi.UI
             this.zoomRibbonPageGroup1.ItemLinks.Add(this.zoomOutItem1);
             this.zoomRibbonPageGroup1.ItemLinks.Add(this.zoomInItem1);
             this.zoomRibbonPageGroup1.Name = "zoomRibbonPageGroup1";
+            // 
+            // tableDesignRibbonPage1
+            // 
+            this.tableDesignRibbonPage1.Appearance.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tableDesignRibbonPage1.Appearance.Options.UseFont = true;
+            this.tableDesignRibbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
+            this.tableStyleOptionsRibbonPageGroup1,
+            this.tableStylesRibbonPageGroup1,
+            this.tableDrawBordersRibbonPageGroup1});
+            this.tableDesignRibbonPage1.Name = "tableDesignRibbonPage1";
+            // 
+            // tableStyleOptionsRibbonPageGroup1
+            // 
+            this.tableStyleOptionsRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleFirstRowItem1);
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleLastRowItem1);
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleBandedRowsItem1);
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleFirstColumnItem1);
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleLastColumnItem1);
+            this.tableStyleOptionsRibbonPageGroup1.ItemLinks.Add(this.toggleBandedColumnsItem1);
+            this.tableStyleOptionsRibbonPageGroup1.Name = "tableStyleOptionsRibbonPageGroup1";
+            // 
+            // tableStylesRibbonPageGroup1
+            // 
+            this.tableStylesRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.False;
+            this.tableStylesRibbonPageGroup1.ItemLinks.Add(this.galleryChangeTableStyleItem1);
+            this.tableStylesRibbonPageGroup1.Name = "tableStylesRibbonPageGroup1";
+            // 
+            // tableDrawBordersRibbonPageGroup1
+            // 
+            this.tableDrawBordersRibbonPageGroup1.CaptionButtonVisible = DevExpress.Utils.DefaultBoolean.True;
+            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderLineStyleItem1);
+            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderLineWeightItem1);
+            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBorderColorItem1, "C");
+            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableBordersItem1, "B");
+            this.tableDrawBordersRibbonPageGroup1.ItemLinks.Add(this.changeTableCellsShadingItem1, "H");
+            this.tableDrawBordersRibbonPageGroup1.Name = "tableDrawBordersRibbonPageGroup1";
+            // 
+            // barButtonGroup1
+            // 
+            this.barButtonGroup1.Id = 12;
+            this.barButtonGroup1.ItemLinks.Add(this.changeFontNameItem1, "FF");
+            this.barButtonGroup1.ItemLinks.Add(this.changeFontSizeItem1);
+            this.barButtonGroup1.ItemLinks.Add(this.fontSizeIncreaseItem1, "FG");
+            this.barButtonGroup1.ItemLinks.Add(this.fontSizeDecreaseItem1, "FK");
+            this.barButtonGroup1.Name = "barButtonGroup1";
+            this.barButtonGroup1.Tag = "{97BBE334-159B-44d9-A168-0411957565E8}";
+            // 
+            // barButtonGroup2
+            // 
+            this.barButtonGroup2.Id = 13;
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontBoldItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontItalicItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontUnderlineItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontDoubleUnderlineItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontStrikeoutItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontDoubleStrikeoutItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontSuperscriptItem1);
+            this.barButtonGroup2.ItemLinks.Add(this.toggleFontSubscriptItem1);
+            this.barButtonGroup2.Name = "barButtonGroup2";
+            this.barButtonGroup2.Tag = "{433DA7F0-03E2-4650-9DB5-66DD92D16E39}";
+            // 
+            // barButtonGroup3
+            // 
+            this.barButtonGroup3.Id = 14;
+            this.barButtonGroup3.ItemLinks.Add(this.changeFontColorItem1, "FC");
+            this.barButtonGroup3.ItemLinks.Add(this.changeFontHighlightColorItem1, "I");
+            this.barButtonGroup3.Name = "barButtonGroup3";
+            this.barButtonGroup3.Tag = "{DF8C5334-EDE3-47c9-A42C-FE9A9247E180}";
+            // 
+            // barButtonGroup4
+            // 
+            this.barButtonGroup4.Id = 15;
+            this.barButtonGroup4.ItemLinks.Add(this.toggleBulletedListItem1, "U");
+            this.barButtonGroup4.ItemLinks.Add(this.toggleNumberingListItem1, "N");
+            this.barButtonGroup4.ItemLinks.Add(this.toggleMultiLevelListItem1, "M");
+            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleBulletedListItem1, "U");
+            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleNumberingListItem1, "N");
+            this.barButtonGroup4.ItemLinks.Add(this.rtlToggleMultiLevelListItem1, "M");
+            this.barButtonGroup4.Name = "barButtonGroup4";
+            this.barButtonGroup4.Tag = "{0B3A7A43-3079-4ce0-83A8-3789F5F6DC9F}";
+            // 
+            // barButtonGroup5
+            // 
+            this.barButtonGroup5.Id = 16;
+            this.barButtonGroup5.ItemLinks.Add(this.decreaseIndentItem1, "AO");
+            this.barButtonGroup5.ItemLinks.Add(this.ıncreaseIndentItem1, "AI");
+            this.barButtonGroup5.ItemLinks.Add(this.rtlDecreaseIndentItem1, "AO");
+            this.barButtonGroup5.ItemLinks.Add(this.rtlIncreaseIndentItem1, "AI");
+            this.barButtonGroup5.ItemLinks.Add(this.toggleParagraphLeftToRightItem1);
+            this.barButtonGroup5.ItemLinks.Add(this.toggleParagraphRightToLeftItem1);
+            this.barButtonGroup5.ItemLinks.Add(this.toggleShowWhitespaceItem1);
+            this.barButtonGroup5.Name = "barButtonGroup5";
+            this.barButtonGroup5.Tag = "{4747D5AB-2BEB-4ea6-9A1D-8E4FB36F1B40}";
+            // 
+            // barButtonGroup6
+            // 
+            this.barButtonGroup6.Id = 17;
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentLeftItem1, "AL");
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentCenterItem1, "AC");
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentRightItem1, "AR");
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentJustifyItem1, "AJ");
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentArabicJustifyGroupItem1);
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentDistributeItem1);
+            this.barButtonGroup6.ItemLinks.Add(this.toggleParagraphAlignmentThaiDistributeItem1);
+            this.barButtonGroup6.Name = "barButtonGroup6";
+            this.barButtonGroup6.Tag = "{8E89E775-996E-49a0-AADA-DE338E34732E}";
+            // 
+            // barButtonGroup7
+            // 
+            this.barButtonGroup7.Id = 18;
+            this.barButtonGroup7.ItemLinks.Add(this.changeParagraphLineSpacingItem1, "K");
+            this.barButtonGroup7.ItemLinks.Add(this.changeParagraphBackColorItem1, "H");
+            this.barButtonGroup7.Name = "barButtonGroup7";
+            this.barButtonGroup7.Tag = "{9A8DEAD8-3890-4857-A395-EC625FD02217}";
+            // 
+            // barButtonGroup15
+            // 
+            this.barButtonGroup15.Caption = "barButtonGroup15";
+            this.barButtonGroup15.Id = 194;
+            this.barButtonGroup15.Name = "barButtonGroup15";
             // 
             // richEditBarController1
             // 
@@ -2219,10 +2288,10 @@ namespace SinavSistemi.UI
             // 
             // dockManager1
             // 
+            this.dockManager1.AutoHideContainers.AddRange(new DevExpress.XtraBars.Docking.AutoHideContainer[] {
+            this.hideContainerRight,
+            this.hideContainerLeft});
             this.dockManager1.Form = this;
-            this.dockManager1.RootPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
-            this.dockPanelSoruNitelik,
-            this.dockPanel2});
             this.dockManager1.TopZIndexControls.AddRange(new string[] {
             "DevExpress.XtraBars.BarDockControl",
             "DevExpress.XtraBars.StandaloneBarDockControl",
@@ -2237,16 +2306,78 @@ namespace SinavSistemi.UI
             "DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl",
             "DevExpress.XtraBars.ToolbarForm.ToolbarFormControl"});
             // 
+            // hideContainerRight
+            // 
+            this.hideContainerRight.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.hideContainerRight.Controls.Add(this.dockPanel2);
+            this.hideContainerRight.Dock = System.Windows.Forms.DockStyle.Right;
+            this.hideContainerRight.Location = new System.Drawing.Point(1767, 180);
+            this.hideContainerRight.Name = "hideContainerRight";
+            this.hideContainerRight.Size = new System.Drawing.Size(22, 646);
+            // 
+            // dockPanel2
+            // 
+            this.dockPanel2.Controls.Add(this.dockPanel2_Container);
+            this.dockPanel2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right;
+            this.dockPanel2.ID = new System.Guid("e493d55a-813c-4c5d-9bc3-f387b379a4bb");
+            this.dockPanel2.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel2.Name = "dockPanel2";
+            this.dockPanel2.Options.ShowCloseButton = false;
+            this.dockPanel2.OriginalSize = new System.Drawing.Size(396, 200);
+            this.dockPanel2.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Right;
+            this.dockPanel2.SavedIndex = 1;
+            this.dockPanel2.Size = new System.Drawing.Size(396, 646);
+            this.dockPanel2.Text = "Hazırlananlar";
+            this.dockPanel2.Visibility = DevExpress.XtraBars.Docking.DockVisibility.AutoHide;
+            // 
+            // dockPanel2_Container
+            // 
+            this.dockPanel2_Container.Controls.Add(this.gridControl1);
+            this.dockPanel2_Container.Location = new System.Drawing.Point(6, 21);
+            this.dockPanel2_Container.Name = "dockPanel2_Container";
+            this.dockPanel2_Container.Size = new System.Drawing.Size(386, 621);
+            this.dockPanel2_Container.TabIndex = 0;
+            // 
+            // gridControl1
+            // 
+            this.gridControl1.Location = new System.Drawing.Point(4, 4);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.MenuManager = this.ribbon;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(400, 200);
+            this.gridControl1.TabIndex = 0;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
+            // 
+            // gridView1
+            // 
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.AllowHtmlDrawHeaders = true;
+            // 
+            // hideContainerLeft
+            // 
+            this.hideContainerLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.hideContainerLeft.Controls.Add(this.dockPanelSoruNitelik);
+            this.hideContainerLeft.Dock = System.Windows.Forms.DockStyle.Left;
+            this.hideContainerLeft.Location = new System.Drawing.Point(0, 180);
+            this.hideContainerLeft.Name = "hideContainerLeft";
+            this.hideContainerLeft.Size = new System.Drawing.Size(22, 646);
+            // 
             // dockPanelSoruNitelik
             // 
             this.dockPanelSoruNitelik.Controls.Add(this.dockPanel1_Container);
             this.dockPanelSoruNitelik.Dock = DevExpress.XtraBars.Docking.DockingStyle.Left;
             this.dockPanelSoruNitelik.ID = new System.Guid("1a46b610-b542-4f87-84b2-415c80fc79fa");
-            this.dockPanelSoruNitelik.Location = new System.Drawing.Point(0, 157);
+            this.dockPanelSoruNitelik.Location = new System.Drawing.Point(0, 0);
             this.dockPanelSoruNitelik.Name = "dockPanelSoruNitelik";
+            this.dockPanelSoruNitelik.Options.ShowCloseButton = false;
             this.dockPanelSoruNitelik.OriginalSize = new System.Drawing.Size(228, 200);
-            this.dockPanelSoruNitelik.Size = new System.Drawing.Size(228, 669);
+            this.dockPanelSoruNitelik.SavedDock = DevExpress.XtraBars.Docking.DockingStyle.Left;
+            this.dockPanelSoruNitelik.SavedIndex = 0;
+            this.dockPanelSoruNitelik.Size = new System.Drawing.Size(228, 646);
             this.dockPanelSoruNitelik.Text = "Nitelik";
+            this.dockPanelSoruNitelik.Visibility = DevExpress.XtraBars.Docking.DockVisibility.AutoHide;
             // 
             // dockPanel1_Container
             // 
@@ -2262,7 +2393,7 @@ namespace SinavSistemi.UI
             this.dockPanel1_Container.Controls.Add(this.labelControl1);
             this.dockPanel1_Container.Location = new System.Drawing.Point(4, 21);
             this.dockPanel1_Container.Name = "dockPanel1_Container";
-            this.dockPanel1_Container.Size = new System.Drawing.Size(218, 644);
+            this.dockPanel1_Container.Size = new System.Drawing.Size(218, 621);
             this.dockPanel1_Container.TabIndex = 0;
             // 
             // ımageComboBoxEdit6
@@ -2379,29 +2510,11 @@ namespace SinavSistemi.UI
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Ders";
             // 
-            // dockPanel2
-            // 
-            this.dockPanel2.Controls.Add(this.dockPanel2_Container);
-            this.dockPanel2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Right;
-            this.dockPanel2.ID = new System.Guid("e493d55a-813c-4c5d-9bc3-f387b379a4bb");
-            this.dockPanel2.Location = new System.Drawing.Point(1393, 157);
-            this.dockPanel2.Name = "dockPanel2";
-            this.dockPanel2.OriginalSize = new System.Drawing.Size(396, 200);
-            this.dockPanel2.Size = new System.Drawing.Size(396, 669);
-            this.dockPanel2.Text = "dockPanel2";
-            // 
-            // dockPanel2_Container
-            // 
-            this.dockPanel2_Container.Location = new System.Drawing.Point(6, 21);
-            this.dockPanel2_Container.Name = "dockPanel2_Container";
-            this.dockPanel2_Container.Size = new System.Drawing.Size(386, 644);
-            this.dockPanel2_Container.TabIndex = 0;
-            // 
             // splitContainerControl1
             // 
             this.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainerControl1.Horizontal = false;
-            this.splitContainerControl1.Location = new System.Drawing.Point(228, 157);
+            this.splitContainerControl1.Location = new System.Drawing.Point(22, 180);
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.recSoru);
             this.splitContainerControl1.Panel1.Text = "Panel1";
@@ -2409,7 +2522,7 @@ namespace SinavSistemi.UI
             this.splitContainerControl1.Panel2.Controls.Add(this.npCevaplar);
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.ShowSplitGlyph = DevExpress.Utils.DefaultBoolean.True;
-            this.splitContainerControl1.Size = new System.Drawing.Size(1165, 669);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1745, 646);
             this.splitContainerControl1.SplitterPosition = 290;
             this.splitContainerControl1.TabIndex = 19;
             // 
@@ -2439,9 +2552,9 @@ namespace SinavSistemi.UI
             this.npB,
             this.npC,
             this.npD});
-            this.npCevaplar.RegularSize = new System.Drawing.Size(1165, 367);
+            this.npCevaplar.RegularSize = new System.Drawing.Size(1745, 344);
             this.npCevaplar.SelectedPage = this.npA;
-            this.npCevaplar.Size = new System.Drawing.Size(1165, 367);
+            this.npCevaplar.Size = new System.Drawing.Size(1745, 344);
             this.npCevaplar.TabIndex = 0;
             this.npCevaplar.TransitionType = DevExpress.Utils.Animation.Transitions.Fade;
             // 
@@ -2450,14 +2563,14 @@ namespace SinavSistemi.UI
             this.npA.AutoSize = true;
             this.npA.Caption = "A";
             this.npA.Controls.Add(this.recA);
-            customHeaderButtonImageOptions1.SvgImage = global::SinavSistemi.UI.Properties.Resources.actions_check;
-            customHeaderButtonImageOptions1.SvgImageSize = new System.Drawing.Size(16, 20);
-            serializableAppearanceObject1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            serializableAppearanceObject1.Options.UseFont = true;
+            customHeaderButtonImageOptions5.SvgImage = global::SinavSistemi.UI.Properties.Resources.actions_check;
+            customHeaderButtonImageOptions5.SvgImageSize = new System.Drawing.Size(16, 20);
+            serializableAppearanceObject5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            serializableAppearanceObject5.Options.UseFont = true;
             this.npA.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions1, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject1, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions5, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject5, null, -1)});
             this.npA.Name = "npA";
-            this.npA.Size = new System.Drawing.Size(1085, 288);
+            this.npA.Size = new System.Drawing.Size(1665, 265);
             // 
             // recA
             // 
@@ -2468,7 +2581,7 @@ namespace SinavSistemi.UI
             this.recA.Location = new System.Drawing.Point(0, 0);
             this.recA.MenuManager = this.ribbon;
             this.recA.Name = "recA";
-            this.recA.Size = new System.Drawing.Size(1085, 288);
+            this.recA.Size = new System.Drawing.Size(1665, 265);
             this.recA.TabIndex = 0;
             // 
             // npB
@@ -2476,12 +2589,12 @@ namespace SinavSistemi.UI
             this.npB.AutoSize = true;
             this.npB.Caption = "B";
             this.npB.Controls.Add(this.recB);
-            customHeaderButtonImageOptions2.SvgImage = global::SinavSistemi.UI.Properties.Resources.actions_check1;
-            customHeaderButtonImageOptions2.SvgImageSize = new System.Drawing.Size(16, 20);
-            serializableAppearanceObject2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            serializableAppearanceObject2.Options.UseFont = true;
+            customHeaderButtonImageOptions6.SvgImage = global::SinavSistemi.UI.Properties.Resources.actions_check1;
+            customHeaderButtonImageOptions6.SvgImageSize = new System.Drawing.Size(16, 20);
+            serializableAppearanceObject6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            serializableAppearanceObject6.Options.UseFont = true;
             this.npB.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions2, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject2, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions6, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject6, null, -1)});
             this.npB.Name = "npB";
             this.npB.Size = new System.Drawing.Size(1085, 288);
             // 
@@ -2502,12 +2615,12 @@ namespace SinavSistemi.UI
             this.npC.AutoSize = true;
             this.npC.Caption = "C";
             this.npC.Controls.Add(this.recC);
-            customHeaderButtonImageOptions3.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions3.SvgImage")));
-            customHeaderButtonImageOptions3.SvgImageSize = new System.Drawing.Size(16, 20);
-            serializableAppearanceObject3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            serializableAppearanceObject3.Options.UseFont = true;
+            customHeaderButtonImageOptions7.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions7.SvgImage")));
+            customHeaderButtonImageOptions7.SvgImageSize = new System.Drawing.Size(16, 20);
+            serializableAppearanceObject7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            serializableAppearanceObject7.Options.UseFont = true;
             this.npC.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions3, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject3, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions7, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject7, null, -1)});
             this.npC.Name = "npC";
             this.npC.Size = new System.Drawing.Size(1085, 288);
             // 
@@ -2529,12 +2642,12 @@ namespace SinavSistemi.UI
             this.npD.Caption = "D";
             this.npD.Controls.Add(this.recD);
             this.npD.Cursor = System.Windows.Forms.Cursors.Hand;
-            customHeaderButtonImageOptions4.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions4.SvgImage")));
-            customHeaderButtonImageOptions4.SvgImageSize = new System.Drawing.Size(16, 20);
-            serializableAppearanceObject4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            serializableAppearanceObject4.Options.UseFont = true;
+            customHeaderButtonImageOptions8.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("customHeaderButtonImageOptions8.SvgImage")));
+            customHeaderButtonImageOptions8.SvgImageSize = new System.Drawing.Size(16, 20);
+            serializableAppearanceObject8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            serializableAppearanceObject8.Options.UseFont = true;
             this.npD.CustomHeaderButtons.AddRange(new DevExpress.XtraBars.Docking2010.IButton[] {
-            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions4, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject4, null, -1)});
+            new DevExpress.XtraBars.Docking.CustomHeaderButton("Dogru Cevap", true, customHeaderButtonImageOptions8, DevExpress.XtraBars.Docking2010.ButtonStyle.CheckButton, "", -1, true, null, false, false, true, serializableAppearanceObject8, null, -1)});
             this.npD.Name = "npD";
             this.npD.Size = new System.Drawing.Size(1085, 288);
             // 
@@ -2556,7 +2669,7 @@ namespace SinavSistemi.UI
             // 
             // toggleSwitchGeceModu
             // 
-            this.toggleSwitchGeceModu.Location = new System.Drawing.Point(686, 59);
+            this.toggleSwitchGeceModu.Location = new System.Drawing.Point(980, 43);
             this.toggleSwitchGeceModu.MenuManager = this.ribbon;
             this.toggleSwitchGeceModu.Name = "toggleSwitchGeceModu";
             this.toggleSwitchGeceModu.Properties.OffText = "Off";
@@ -2572,9 +2685,10 @@ namespace SinavSistemi.UI
             this.ClientSize = new System.Drawing.Size(1789, 826);
             this.Controls.Add(this.toggleSwitchGeceModu);
             this.Controls.Add(this.splitContainerControl1);
-            this.Controls.Add(this.dockPanel2);
-            this.Controls.Add(this.dockPanelSoruNitelik);
+            this.Controls.Add(this.hideContainerLeft);
+            this.Controls.Add(this.hideContainerRight);
             this.Controls.Add(this.ribbon);
+            this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.Glow;
             this.IsMdiContainer = true;
             this.Name = "SoruEkleUI";
             this.Ribbon = this.ribbon;
@@ -2586,6 +2700,12 @@ namespace SinavSistemi.UI
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemBorderLineWeight1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.richEditBarController1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).EndInit();
+            this.hideContainerRight.ResumeLayout(false);
+            this.dockPanel2.ResumeLayout(false);
+            this.dockPanel2_Container.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.hideContainerLeft.ResumeLayout(false);
             this.dockPanelSoruNitelik.ResumeLayout(false);
             this.dockPanel1_Container.ResumeLayout(false);
             this.dockPanel1_Container.PerformLayout();
@@ -2594,7 +2714,6 @@ namespace SinavSistemi.UI
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit4.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ımageComboBoxEdit2.Properties)).EndInit();
-            this.dockPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.npCevaplar)).EndInit();
@@ -2872,5 +2991,14 @@ namespace SinavSistemi.UI
         private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraBars.Docking.AutoHideContainer hideContainerRight;
+        private DevExpress.XtraBars.Docking.AutoHideContainer hideContainerLeft;
+        private DevExpress.XtraBars.BarButtonGroup barButtonGroup15;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem2;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem3;
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     }
 }

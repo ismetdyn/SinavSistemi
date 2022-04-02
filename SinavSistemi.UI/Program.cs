@@ -19,11 +19,15 @@ namespace SinavSistemi.UI
         [STAThread]
         static void Main()
         {
-            BonusSkins.Register();
-            DevExpress.Skins.SkinManager.EnableFormSkins();
+            WindowsFormsSettings.ForceDirectXPaint();
+            WindowsFormsSettings.SetDPIAware();
+            WindowsFormsSettings.DefaultLookAndFeel.SetSkinStyle("Basic");
+            WindowsFormsSettings.ScrollUIMode = ScrollUIMode.Touch;
+            WindowsFormsSettings.CustomizationFormSnapMode = DevExpress.Utils.Controls.SnapMode.OwnerControl;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SoruEkleUI());
+            BonusSkins.Register();
+            Application.Run(new LoginUI());
             SkinManager.EnableMdiFormSkins();
         }
     }

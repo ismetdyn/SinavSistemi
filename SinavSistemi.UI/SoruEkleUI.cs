@@ -35,8 +35,8 @@ namespace SinavSistemi.UI
             npD.CustomButtonUnchecked += npD_CustomButtonUnchecked;
         }
 
-     
 
+        #region RichTextControllerFocus
         private void RecSoru_GotFocus(object sender, EventArgs e)
         {
             richEditBarController1.Control = (RichEditControl)sender;
@@ -62,6 +62,8 @@ namespace SinavSistemi.UI
             richEditBarController1.Control = (RichEditControl)(sender);
         }
 
+        #endregion
+
         private void toggleSwitch1_Toggled(object sender, EventArgs e)
         {
             if (toggleSwitchGeceModu.IsOn)
@@ -74,7 +76,8 @@ namespace SinavSistemi.UI
             }
         }
 
-        
+
+        #region Check Buton
 
         void npA_CustomButtonChecked(object sender, ButtonEventArgs e)
         {
@@ -136,6 +139,6 @@ namespace SinavSistemi.UI
             npD.ImageOptions.ImageIndex = -1;
         }
 
-        
+        #endregion
     }
 }

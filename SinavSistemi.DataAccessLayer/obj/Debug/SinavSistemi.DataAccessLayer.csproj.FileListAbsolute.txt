@@ -5,3 +5,9 @@ C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.DataAccessLayer\obj\D
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.dll
 C:\Users\ismet\source\repos\vs19\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\bin\Debug\SinavSistemi.DataAccessLayer.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\bin\Debug\SinavSistemi.DataAccessLayer.pdb
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.dll
+C:\Users\ismet\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.pdb

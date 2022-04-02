@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,6 +45,13 @@
     <Compile Include="Kullanici.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Soru.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\SinavSistemi.Common\SinavSistemi.Common.csproj">
+      <Project>{1fb144e2-a69e-4d77-9df7-6ceae7ad7ca5}</Project>
+      <Name>SinavSistemi.Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
