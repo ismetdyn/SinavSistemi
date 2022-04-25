@@ -1,0 +1,14 @@
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.VerificationValidationLayer.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.BusinessLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Entity.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.DataAccessLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.BusinessLayer.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.Entity.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.DataAccessLayer.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\bin\Debug\SinavSistemi.DataAccessLayer.dll.config
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.AssemblyReference.cache
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.CoreCompileInputs.cache
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.csproj.CopyComplete
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.VerificationValidationLayer\obj\Debug\SinavSistemi.VerificationValidationLayer.pdb

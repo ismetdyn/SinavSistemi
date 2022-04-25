@@ -1,0 +1,10 @@
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.pdb
+C:\Users\mczen\OneDrive\Masaüstü\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.dll
+C:\Users\mczen\OneDrive\Masaüstü\SinavSistemi\SinavSistemi.Entity\bin\Debug\SinavSistemi.Entity.pdb
+C:\Users\mczen\OneDrive\Masaüstü\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.csproj.CoreCompileInputs.cache
+C:\Users\mczen\OneDrive\Masaüstü\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.dll
+C:\Users\mczen\OneDrive\Masaüstü\SinavSistemi\SinavSistemi.Entity\obj\Debug\SinavSistemi.Entity.pdb

@@ -1,0 +1,7 @@
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\bin\Debug\SinavSistemi.DataAccessLayer.dll.config
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\bin\Debug\SinavSistemi.DataAccessLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\bin\Debug\SinavSistemi.DataAccessLayer.pdb
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.dll
+C:\Users\guner\Desktop\SinavSistemi\SinavSistemi.DataAccessLayer\obj\Debug\SinavSistemi.DataAccessLayer.pdb
