@@ -1,0 +1,11 @@
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.ORM.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.ORM.pdb
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.Common.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.Entity.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.Common.pdb
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\bin\Release\SinavSistemi.Entity.pdb
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\obj\Release\SinavSistemi.ORM.csproj.AssemblyReference.cache
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\obj\Release\SinavSistemi.ORM.csproj.CoreCompileInputs.cache
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\obj\Release\SinavSistemi.ORM.csproj.CopyComplete
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\obj\Release\SinavSistemi.ORM.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.ORM\obj\Release\SinavSistemi.ORM.pdb

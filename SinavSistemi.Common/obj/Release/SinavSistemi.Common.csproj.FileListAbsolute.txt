@@ -1,0 +1,6 @@
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\bin\Release\SinavSistemi.Common.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\bin\Release\SinavSistemi.Common.pdb
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\obj\Release\SinavSistemi.Common.csproj.AssemblyReference.cache
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\obj\Release\SinavSistemi.Common.csproj.CoreCompileInputs.cache
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\obj\Release\SinavSistemi.Common.dll
+C:\Users\ismet\SinavSistemi-orm\SinavSistemi-orm\SinavSistemi.Common\obj\Release\SinavSistemi.Common.pdb

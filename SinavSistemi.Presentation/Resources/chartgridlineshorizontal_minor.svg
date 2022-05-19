@@ -1,0 +1,10 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Minor_Horizontal_Gridlines" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Black{fill:#727272;}
+	.st0{opacity:0.5;}
+</style>
+  <g class="st0">
+    <path d="M30,4H2V2h28V4z M30,8H2v2h28V8z M30,14H2v2h28V14z M30,20H2v2h28V20z M30,26H2v2h28V26z" class="Black" />
+  </g>
+</svg>
