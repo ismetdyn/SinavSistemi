@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C0D158EF-2A6C-4FF3-9FF2-C388DE9B90FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SinavSistemi.Presentation</RootNamespace>
+    <AssemblyName>SinavSistemi.Presentation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v20.1" />
+    <Reference Include="DevExpress.Charts.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.Desktop.v20.1" />
+    <Reference Include="DevExpress.Data.v20.1" />
+    <Reference Include="DevExpress.DataAccess.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Dialogs.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Images.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Mvvm.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v20.1.Drawing, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.RichEdit.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.SpellChecker.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v20.1" />
+    <Reference Include="DevExpress.Sparkline.v20.1.Core" />
+    <Reference Include="DevExpress.Utils.v20.1.UI, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v20.1.Wizard, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraDialogs.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v20.1" />
+    <Reference Include="DevExpress.Printing.v20.1.Core" />
+    <Reference Include="DevExpress.XtraGauges.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraLayout.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPdfViewer.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v20.1.Extensions, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v20.1.Core, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraSpellChecker.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v20.1, Version=20.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tulpep.NotificationWindow, Version=1.1.38.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Tulpep.NotificationWindow.1.1.38\lib\net40\Tulpep.NotificationWindow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ManagementObjects\AdminUI_MO.cs" />
+    <Compile Include="ManagementObjects\Base_MO.cs" />
+    <Compile Include="ManagementObjects\FrgtPsswrdUI_MO.cs" />
+    <Compile Include="ManagementObjects\LoginUI_MO.cs" />
+    <Compile Include="ManagementObjects\RegistrationUI_MO.cs" />
+    <Compile Include="ManagementObjects\SigmaSinavUI_MO.cs" />
+    <Compile Include="ManagementObjects\UserUI_MO.cs" />
+    <Compile Include="SinavSistemiDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SinavSistemiDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\AdminUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\AdminUI.Designer.cs">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\DenemeUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\DenemeUI.Designer.cs">
+      <DependentUpon>DenemeUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\FrgtPsswrdUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\FrgtPsswrdUI.Designer.cs">
+      <DependentUpon>FrgtPsswrdUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\InitializeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\InitializeForm.Designer.cs">
+      <DependentUpon>InitializeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\LoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\LoginUI.Designer.cs">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIs\RegistrationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\RegistrationUI.Designer.cs">
+      <DependentUpon>RegistrationUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\SigmaSinavUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\SigmaSinavUI.Designer.cs">
+      <DependentUpon>SigmaSinavUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIs\SoruEkleUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\SoruEkleUI.Designer.cs">
+      <DependentUpon>SoruEkleUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagementObjects\SoruEkleUI_MO.cs" />
+    <Compile Include="UIs\UserUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIs\UserUI.Designer.cs">
+      <DependentUpon>UserUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AnalizUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AnalizUC.Designer.cs">
+      <DependentUpon>AnalizUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AnaSayfaUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AnaSayfaUC.Designer.cs">
+      <DependentUpon>AnaSayfaUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AyarlarUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\AyarlarUC.Designer.cs">
+      <DependentUpon>AyarlarUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\HesapUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\HesapUC.Designer.cs">
+      <DependentUpon>HesapUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\KullanicilarUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\KullanicilarUC.Designer.cs">
+      <DependentUpon>KullanicilarUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RaporUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\RaporUC.Designer.cs">
+      <DependentUpon>RaporUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SonuclarimUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SonuclarimUC.Designer.cs">
+      <DependentUpon>SonuclarimUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SorularUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SorularUC.Designer.cs">
+      <DependentUpon>SorularUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ManagementObjects\Base_MO.resx">
+      <DependentUpon>Base_MO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\AdminUI.resx">
+      <DependentUpon>AdminUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\DenemeUI.resx">
+      <DependentUpon>DenemeUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\FrgtPsswrdUI.resx">
+      <DependentUpon>FrgtPsswrdUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\InitializeForm.resx">
+      <DependentUpon>InitializeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\LoginUI.resx">
+      <DependentUpon>LoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UIs\RegistrationUI.resx">
+      <DependentUpon>RegistrationUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\SigmaSinavUI.resx">
+      <DependentUpon>SigmaSinavUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\SoruEkleUI.resx">
+      <DependentUpon>SoruEkleUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIs\UserUI.resx">
+      <DependentUpon>UserUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AnalizUC.resx">
+      <DependentUpon>AnalizUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AnaSayfaUC.resx">
+      <DependentUpon>AnaSayfaUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\AyarlarUC.resx">
+      <DependentUpon>AyarlarUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\HesapUC.resx">
+      <DependentUpon>HesapUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\KullanicilarUC.resx">
+      <DependentUpon>KullanicilarUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\RaporUC.resx">
+      <DependentUpon>RaporUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SonuclarimUC.resx">
+      <DependentUpon>SonuclarimUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SorularUC.resx">
+      <DependentUpon>SorularUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="SinavSistemiDBDataSet.xsc">
+      <DependentUpon>SinavSistemiDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SinavSistemiDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SinavSistemiDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SinavSistemiDBDataSet.xss">
+      <DependentUpon>SinavSistemiDBDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-mode-6682.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_moon.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_arrow4right.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_arrow4right1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security_lock.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_user.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security_visibility.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\private.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\security_visibilityoff.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_moon1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_moon2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_arrow1down.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pagemarginswide.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_note.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_note1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation6.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation7.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation8.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation9.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_validation10.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_check.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_check1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_check2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bo_folder.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_add.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_database.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editconnection.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newdatasource.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\updatedataextract.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\6sigmaY.svg" />
+    <Content Include="Resources\add_32x32.png" />
+    <None Include="Resources\alignjustify.svg" />
+    <Content Include="Resources\apply_32x32.png" />
+    <None Include="Resources\apply_32x321.png" />
+    <None Include="Resources\apply_32x322.png" />
+    <Content Include="Resources\bocustomer_32x32.png" />
+    <Content Include="Resources\bocustomer_32x321.png" />
+    <Content Include="Resources\bo_lead.svg" />
+    <Content Include="Resources\bo_mydetails.svg" />
+    <Content Include="Resources\bo_security_permission.svg" />
+    <Content Include="Resources\bo_security_permission1.svg" />
+    <Content Include="Resources\bo_validation.svg" />
+    <Content Include="Resources\cancel_32x32.png" />
+    <Content Include="Resources\cancel_32x321.png" />
+    <Content Include="Resources\cancel_32x322.png" />
+    <Content Include="Resources\chartgridlineshorizontal_minor.svg" />
+    <Content Include="Resources\close_32x32.png" />
+    <Content Include="Resources\customer_16x16.png" />
+    <Content Include="Resources\customer_32x32.png" />
+    <None Include="Resources\doctor.svg" />
+    <Content Include="Resources\doublefirst_32x32.png" />
+    <Content Include="Resources\doublefirst_32x321.png" />
+    <Content Include="Resources\doublelast_32x32.png" />
+    <Content Include="Resources\doublelast_32x321.png" />
+    <Content Include="Resources\formatastable_32x32.png" />
+    <Content Include="Resources\historyitem_32x32.png" />
+    <Content Include="Resources\home_32x32.png" />
+    <Content Include="Resources\indir.svg" />
+    <Content Include="Resources\indiry.svg" />
+    <Content Include="Resources\logical_32x32.png" />
+    <Content Include="Resources\piestyledonut_32x32.png" />
+    <Content Include="Resources\pie_32x32.png" />
+    <Content Include="Resources\publicfix_32x32.png" />
+    <Content Include="Resources\refreshallpivottable_32x32.png" />
+    <Content Include="Resources\report2_32x32.png" />
+    <Content Include="Resources\report_32x32.png" />
+    <Content Include="Resources\showtestreport_32x32.png" />
+    <Content Include="Resources\technology_32x32.png" />
+    <Content Include="Resources\usergroup_32x32.png" />
+    <Content Include="Resources\usergroup_32x321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SinavSistemi.BusinessLayer\SinavSistemi.BusinessLayer.csproj">
+      <Project>{9033c8bd-1266-4161-9988-c402d9f6dc5e}</Project>
+      <Name>SinavSistemi.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinavSistemi.Common\SinavSistemi.Common.csproj">
+      <Project>{1FB144E2-A69E-4D77-9DF7-6CEAE7AD7CA5}</Project>
+      <Name>SinavSistemi.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SinavSistemi.Entity\SinavSistemi.Entity.csproj">
+      <Project>{2f8940cc-ef34-4e45-8dea-00155f1b1ed9}</Project>
+      <Name>SinavSistemi.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
